@@ -13,4 +13,4 @@ const postSchema = new Schema(
   { timestamps: true }
 );
 
-export const PostModel = Mongo.model<Post>(" Post", postSchema);
+export const PostModel = Mongo.model<Post>("Post",  postSchema);

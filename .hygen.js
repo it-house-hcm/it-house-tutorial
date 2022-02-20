@@ -6,11 +6,7 @@ module.exports = {
     path: path,
     dir: dir,
     importPath: (name, target) => {
-      console.log("name", name);
-      console.log("dir", dir(name, ""));
-      console.log("target", target);
-      console.log("relative", path.relative(dir(name, ""), target));
-      return path.relative(dir(name, ""), target);
+      return path.relative(dir(name), target);
     },
     name: (name, lowFirstLetter = false) => {
       return inflection.camelize(path.basename(name), lowFirstLetter);
