@@ -29,6 +29,26 @@ export class GraphqlServer {
         type Subscription {
           _empty: String
         }
+        input QueryInput {
+          "Số phần tử trên trang"
+          limit: Int
+          "Số trang"
+          page: Int
+          "Sắp xếp"
+          order: Mixed
+          "Bộ lọc"
+          filter: Mixed
+          "Tìm kiếm"
+          search: String
+        }
+        type Pagination {
+          "Tổng số phần tử"
+          total: Int
+          "Số phần tử trên trang"
+          limit: Int
+          "Số trang"
+          page: Int
+        }
       `,
     ];
     let resolvers: any = {

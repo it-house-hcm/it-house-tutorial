@@ -80,3 +80,231 @@
 
 [2022-02-19 17:24:30][[32minfo[39m] GRAPHQL query($districtId:String!){getWard(districtId:$districtId){id name}} - 200 - 58.473 ms
 
+[2022-02-20 15:19:14][[32minfo[39m] GRAPHQL - - 200 - 1.095 ms
+
+[2022-02-20 15:19:28][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 53.571 ms
+
+[2022-02-20 15:19:35][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 52.114 ms
+
+[2022-02-20 15:19:35][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 47.748 ms
+
+[2022-02-20 15:19:36][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 46.047 ms
+
+[2022-02-20 15:19:36][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 42.256 ms
+
+[2022-02-20 15:19:37][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 41.752 ms
+
+[2022-02-20 15:19:38][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 42.291 ms
+
+[2022-02-20 15:22:39][[32minfo[39m] Redis connected
+[2022-02-20 15:22:58][[32minfo[39m] Redis connected
+[2022-02-20 15:22:58][[32minfo[39m] Get province from db
+[2022-02-20 15:22:59][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 716.861 ms
+
+[2022-02-20 15:23:02][[32minfo[39m] Get province from redis
+[2022-02-20 15:23:02][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 7.502 ms
+
+[2022-02-20 15:23:03][[32minfo[39m] Get province from redis
+[2022-02-20 15:23:03][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 4.122 ms
+
+[2022-02-20 15:23:04][[32minfo[39m] Get province from redis
+[2022-02-20 15:23:04][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 3.503 ms
+
+[2022-02-20 15:23:11][[32minfo[39m] Get province from redis
+[2022-02-20 15:23:11][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 4.814 ms
+
+[2022-02-20 15:24:28][[32minfo[39m] Get province from db
+[2022-02-20 15:24:28][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 56.855 ms
+
+[2022-02-20 15:25:39][[32minfo[39m] Redis connected
+[2022-02-20 15:28:33][[32minfo[39m] Redis connected
+[2022-02-20 15:28:43][[32minfo[39m] Get province from db
+[2022-02-20 15:28:43][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 60.287 ms
+
+[2022-02-20 15:30:01][[32minfo[39m] Redis connected
+[2022-02-20 15:30:47][[32minfo[39m] Redis connected
+[2022-02-20 15:31:42][[32minfo[39m] Redis connected
+[2022-02-20 15:31:44][[32minfo[39m] Get province from db
+[2022-02-20 15:31:44][[32minfo[39m] GRAPHQL query{getProvince{id name view}} - 200 - 91.503 ms
+
+[2022-02-20 15:31:45][[32minfo[39m] Get province from redis
+[2022-02-20 15:31:45][[32minfo[39m] GRAPHQL query{getProvince{id name view}} - 200 - 12.844 ms
+
+[2022-02-20 15:31:46][[32minfo[39m] Get province from redis
+[2022-02-20 15:31:46][[32minfo[39m] GRAPHQL query{getProvince{id name view}} - 200 - 11.273 ms
+
+[2022-02-20 15:31:59][[32minfo[39m] Redis connected
+[2022-02-20 15:32:00][[32minfo[39m] Get province from redis
+[2022-02-20 15:32:00][[32minfo[39m] GRAPHQL query{getProvince{id name view}} - 200 - 16.952 ms
+
+[2022-02-20 15:32:01][[32minfo[39m] Get province from redis
+[2022-02-20 15:32:01][[32minfo[39m] GRAPHQL query{getProvince{id name view}} - 200 - 9.698 ms
+
+[2022-02-20 15:32:01][[32minfo[39m] Get province from redis
+[2022-02-20 15:32:01][[32minfo[39m] GRAPHQL query{getProvince{id name view}} - 200 - 11.827 ms
+
+[2022-02-20 15:32:02][[32minfo[39m] Get province from redis
+[2022-02-20 15:32:02][[32minfo[39m] GRAPHQL query{getProvince{id name view}} - 200 - 16.899 ms
+
+[2022-02-20 15:32:03][[32minfo[39m] Get province from redis
+[2022-02-20 15:32:03][[32minfo[39m] GRAPHQL query{getProvince{id name view}} - 200 - 11.703 ms
+
+[2022-02-20 15:32:03][[32minfo[39m] Get province from redis
+[2022-02-20 15:32:03][[32minfo[39m] GRAPHQL query{getProvince{id name view}} - 200 - 7.667 ms
+
+[2022-02-20 15:32:04][[32minfo[39m] Get province from redis
+[2022-02-20 15:32:04][[32minfo[39m] GRAPHQL query{getProvince{id name view}} - 200 - 11.547 ms
+
+[2022-02-20 15:32:04][[32minfo[39m] Get province from redis
+[2022-02-20 15:32:04][[32minfo[39m] GRAPHQL query{getProvince{id name view}} - 200 - 9.483 ms
+
+[2022-02-20 15:32:05][[32minfo[39m] Get province from redis
+[2022-02-20 15:32:05][[32minfo[39m] GRAPHQL query{getProvince{id name view}} - 200 - 8.814 ms
+
+[2022-02-20 15:32:06][[32minfo[39m] Get province from redis
+[2022-02-20 15:32:06][[32minfo[39m] GRAPHQL query{getProvince{id name view}} - 200 - 8.781 ms
+
+[2022-02-20 15:32:06][[32minfo[39m] Get province from redis
+[2022-02-20 15:32:06][[32minfo[39m] GRAPHQL query{getProvince{id name view}} - 200 - 10.972 ms
+
+[2022-02-20 15:32:07][[32minfo[39m] Get province from redis
+[2022-02-20 15:32:07][[32minfo[39m] GRAPHQL query{getProvince{id name view}} - 200 - 7.866 ms
+
+[2022-02-20 15:38:18][[32minfo[39m] Redis connected
+[2022-02-20 15:39:06][[32minfo[39m] Redis connected
+[2022-02-20 15:39:32][[32minfo[39m] Redis connected
+[2022-02-20 15:47:52][[32minfo[39m] Redis connected
+[2022-02-20 15:52:02][[32minfo[39m] Redis connected
+[2022-02-20 15:53:26][[32minfo[39m] Redis connected
+[2022-02-20 15:53:44][[32minfo[39m] Redis connected
+[2022-02-20 15:53:59][[32minfo[39m] Redis connected
+[2022-02-20 15:54:04][[32minfo[39m] Redis connected
+[2022-02-20 15:55:29][[32minfo[39m] Redis connected
+[2022-02-20 15:56:50][[32minfo[39m] Redis connected
+[2022-02-20 15:57:38][[32minfo[39m] Redis connected
+[2022-02-20 15:58:05][[32minfo[39m] Redis connected
+[2022-02-20 15:58:17][[32minfo[39m] Redis connected
+[2022-02-20 16:01:58][[32minfo[39m] Redis connected
+[2022-02-20 16:03:38][[32minfo[39m] Redis connected
+[2022-02-20 16:03:44][[32minfo[39m] Redis connected
+[2022-02-20 16:04:58][[32minfo[39m] Redis connected
+[2022-02-20 16:05:07][[32minfo[39m] Redis connected
+[2022-02-20 16:05:20][[32minfo[39m] Redis connected
+[2022-02-20 16:06:08][[32minfo[39m] GRAPHQL mutation($data:CreateUserInput!){createUser(data:$data){id username}} - 200 - 7.535 ms
+
+[2022-02-20 16:06:55][[32minfo[39m] GRAPHQL mutation{createUser(data:{username:"duong" email:"123123" password:"123123123" phone:"123123" role:ADMIN}){id username}} - 400 - 51.776 ms
+
+[2022-02-20 16:07:06][[32minfo[39m] GRAPHQL mutation{createUser(data:{username:"duong" name:"duong" email:"123123" password:"123123123" phone:"123123" role:ADMIN}){id username}} - 200 - 2.131 ms
+
+[2022-02-20 16:08:06][[32minfo[39m] Redis connected
+[2022-02-20 16:09:29][[32minfo[39m] Redis connected
+[2022-02-20 16:11:05][[32minfo[39m] Redis connected
+[2022-02-20 16:11:30][[32minfo[39m] Redis connected
+[2022-02-20 16:12:51][[32minfo[39m] Redis connected
+[2022-02-20 16:13:08][[32minfo[39m] Redis connected
+[2022-02-20 16:13:57][[32minfo[39m] Redis connected
+[2022-02-20 16:14:07][[32minfo[39m] Redis connected
+[2022-02-20 16:14:35][[32minfo[39m] Redis connected
+[2022-02-20 16:14:48][[32minfo[39m] Redis connected
+[2022-02-20 16:15:05][[32minfo[39m] Redis connected
+[2022-02-20 16:16:03][[32minfo[39m] Redis connected
+[2022-02-20 16:16:29][[32minfo[39m] Redis connected
+[2022-02-20 16:17:09][[32minfo[39m] Redis connected
+[2022-02-20 16:18:15][[32minfo[39m] Redis connected
+[2022-02-20 16:18:43][[32minfo[39m] Redis connected
+[2022-02-20 16:19:09][[32minfo[39m] Redis connected
+[2022-02-20 16:19:10][[32minfo[39m] Mongoose connected
+[2022-02-20 16:19:19][[32minfo[39m] GRAPHQL mutation{createUser(data:{username:"duong" name:"duong" email:"123123" password:"123123123" phone:"123123" role:"ADMIN"}){id username}} - 200 - 37.483 ms
+
+[2022-02-20 16:19:31][[32minfo[39m] GRAPHQL mutation{createUser(data:{username:"diepmyduong" name:"duong" email:"123123" password:"123123123" phone:"123123" role:"ADMIN"}){id username}} - 200 - 3.634 ms
+
+[2022-02-20 16:19:42][[32minfo[39m] GRAPHQL mutation{createUser(data:{username:"diepmyduong" name:"duong" email:"diepmyduong@gmail.com" password:"123123" phone:"123123" role:"ADMIN"}){id username}} - 200 - 61.530 ms
+
+[2022-02-20 16:20:00][[32minfo[39m] GRAPHQL query{getAllUser{id username}} - 200 - 49.551 ms
+
+[2022-02-20 16:20:07][[32minfo[39m] GRAPHQL mutation{createUser(data:{username:"diepmyduong2" name:"duong" email:"diepmyduong@gmail.com" password:"123123" phone:"123123" role:"ADMIN"}){id username}} - 200 - 124.714 ms
+
+[2022-02-20 16:20:11][[32minfo[39m] GRAPHQL query{getAllUser{id username}} - 200 - 48.543 ms
+
+[2022-02-20 16:21:36][[32minfo[39m] Redis connected
+[2022-02-20 16:21:37][[32minfo[39m] Mongoose connected
+[2022-02-20 16:23:41][[32minfo[39m] Redis connected
+[2022-02-20 16:23:42][[32minfo[39m] Mongoose connected
+[2022-02-20 16:23:47][[32minfo[39m] GRAPHQL query{getOneUser(id:"6211efeef0d4a4adcb44a6e5"){id username}} - 200 - 49.781 ms
+
+[2022-02-20 16:25:01][[32minfo[39m] Redis connected
+[2022-02-20 16:25:01][[32minfo[39m] Mongoose connected
+[2022-02-20 16:25:30][[32minfo[39m] Redis connected
+[2022-02-20 16:25:30][[32minfo[39m] Mongoose connected
+[2022-02-20 16:26:50][[32minfo[39m] Redis connected
+[2022-02-20 16:26:51][[32minfo[39m] Mongoose connected
+[2022-02-20 16:26:54][[32minfo[39m] GRAPHQL query{getOneUser(id:"6211efeef0d4a4adcb44a6e5"){id username name}} - 200 - 62.929 ms
+
+[2022-02-20 16:27:16][[32minfo[39m] GRAPHQL mutation($updateUserId:ID!$data:UpdateUserInput!){updateUser(id:$updateUserId data:$data){id username name}} - 200 - 113.747 ms
+
+[2022-02-20 16:27:23][[32minfo[39m] GRAPHQL mutation($updateUserId:ID!$data:UpdateUserInput!){updateUser(id:$updateUserId data:$data){id username name}} - 200 - 62.710 ms
+
+[2022-02-20 16:27:33][[32minfo[39m] GRAPHQL mutation($updateUserId:ID!$data:UpdateUserInput!){updateUser(id:$updateUserId data:$data){id username name}} - 200 - 83.385 ms
+
+[2022-02-20 16:27:36][[32minfo[39m] GRAPHQL mutation($updateUserId:ID!$data:UpdateUserInput!){updateUser(id:$updateUserId data:$data){id username name email}} - 200 - 95.899 ms
+
+[2022-02-20 16:28:18][[32minfo[39m] Redis connected
+[2022-02-20 16:28:18][[32minfo[39m] Mongoose connected
+[2022-02-20 16:33:03][[32minfo[39m] Redis connected
+[2022-02-20 16:33:04][[32minfo[39m] Mongoose connected
+[2022-02-20 16:35:25][[32minfo[39m] Redis connected
+[2022-02-20 16:35:38][[32minfo[39m] Redis connected
+[2022-02-20 16:35:38][[32minfo[39m] Mongoose connected
+[2022-02-20 16:37:07][[32minfo[39m] Redis connected
+[2022-02-20 16:37:07][[32minfo[39m] Mongoose connected
+[2022-02-20 16:39:34][[32minfo[39m] Redis connected
+[2022-02-20 16:39:35][[32minfo[39m] Mongoose connected
+[2022-02-20 16:40:19][[32minfo[39m] Redis connected
+[2022-02-20 16:40:19][[32minfo[39m] Mongoose connected
+[2022-02-20 16:45:37][[32minfo[39m] Redis connected
+[2022-02-20 16:45:38][[32minfo[39m] Mongoose connected
+[2022-02-20 16:48:13][[32minfo[39m] Redis connected
+[2022-02-20 16:48:14][[32minfo[39m] Mongoose connected
+[2022-02-20 16:48:24][[32minfo[39m] Redis connected
+[2022-02-20 16:48:26][[32minfo[39m] Mongoose connected
+[2022-02-20 16:49:07][[32minfo[39m] Redis connected
+[2022-02-20 16:49:08][[32minfo[39m] Mongoose connected
+[2022-02-20 16:49:36][[32minfo[39m] Redis connected
+[2022-02-20 16:49:37][[32minfo[39m] Mongoose connected
+[2022-02-20 16:50:10][[32minfo[39m] GRAPHQL query($q:QueryInput){getAllUser(q:$q){pagination{total limit page}data{id username}}} - 200 - 70.488 ms
+
+[2022-02-20 16:50:15][[32minfo[39m] GRAPHQL query($q:QueryInput){getAllUser(q:$q){pagination{total limit page}data{id username}}} - 200 - 56.177 ms
+
+[2022-02-20 16:50:36][[32minfo[39m] GRAPHQL query($q:QueryInput){getAllUser(q:$q){pagination{total limit page}data{id username}}} - 200 - 58.134 ms
+
+[2022-02-20 16:50:41][[32minfo[39m] GRAPHQL query($q:QueryInput){getAllUser(q:$q){pagination{total limit page}data{id username}}} - 200 - 61.885 ms
+
+[2022-02-20 16:51:04][[32minfo[39m] GRAPHQL query($q:QueryInput){getAllUser(q:$q){pagination{total limit page}data{id username}}} - 200 - 56.618 ms
+
+[2022-02-20 16:51:12][[32minfo[39m] GRAPHQL query($q:QueryInput){getAllUser(q:$q){pagination{total limit page}data{id username}}} - 200 - 62.386 ms
+
+[2022-02-20 16:51:25][[32minfo[39m] GRAPHQL query($q:QueryInput){getAllUser(q:$q){pagination{total limit page}data{id username}}} - 200 - 55.799 ms
+
+[2022-02-20 16:51:29][[32minfo[39m] GRAPHQL query($q:QueryInput){getAllUser(q:$q){pagination{total limit page}data{id username}}} - 200 - 57.271 ms
+
+[2022-02-20 16:52:41][[32minfo[39m] GRAPHQL query($q:QueryInput){getAllUser(q:$q){pagination{total limit page}data{id username}}} - 200 - 57.770 ms
+
+[2022-02-20 16:54:20][[32minfo[39m] Redis connected
+[2022-02-20 16:54:21][[32minfo[39m] Mongoose connected
+[2022-02-20 17:05:11][[32minfo[39m] Redis connected
+[2022-02-20 17:05:18][[32minfo[39m] Redis connected
+[2022-02-20 17:05:19][[32minfo[39m] Mongoose connected
+[2022-02-20 17:09:14][[32minfo[39m] Redis connected
+[2022-02-20 17:09:15][[32minfo[39m] Mongoose connected
+[2022-02-20 17:15:46][[32minfo[39m] Redis connected
+[2022-02-20 17:15:46][[32minfo[39m] Mongoose connected
+[2022-02-20 17:17:00][[32minfo[39m] Redis connected
+[2022-02-20 17:17:00][[32minfo[39m] Mongoose connected
+[2022-02-20 17:18:14][[32minfo[39m] Redis connected
+[2022-02-20 17:18:15][[32minfo[39m] Mongoose connected
+[2022-02-20 17:18:28][[32minfo[39m] Redis connected
+[2022-02-20 17:18:29][[32minfo[39m] Mongoose connected
+[2022-02-20 17:19:13][[32minfo[39m] Redis connected
+[2022-02-20 17:19:14][[32minfo[39m] Mongoose connected
+[2022-02-20 17:21:09][[32minfo[39m] Redis connected
+[2022-02-20 17:21:10][[32minfo[39m] Mongoose connected

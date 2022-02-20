@@ -9,6 +9,7 @@ export default gql`
   type Province {
     id: ID!
     name: String!
+    view: Int
   }
   type District {
     id: ID!

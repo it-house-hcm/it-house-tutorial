@@ -1,12 +1,12 @@
 import mongoose from "mongoose";
 import config from "config";
+import logger from "./logger";
 
 const mongoUri = config.get<string>("mongo.uri");
-console.log("mongoUri", mongoUri);
 const connection = mongoose.createConnection(mongoUri);
 
 connection.on("connected", () => {
-  console.log("Mongoose connected");
+  logger.info("Mongoose connected");
 });
 
 export const Mongo = connection;
