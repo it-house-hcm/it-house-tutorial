@@ -1,6 +1,6 @@
-import express from "express";
 import { json } from "body-parser";
 import cors from "cors";
+import express from "express";
 import morgan from "morgan";
 
 const app = express();
@@ -22,7 +22,6 @@ export function startExpressServer() {
     console.log("body", req.body);
     res.json(req.body);
   });
-
   app.listen(4000, () => {
     console.log("listening on port http://localhost:4000");
   });

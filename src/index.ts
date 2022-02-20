@@ -1,8 +1,8 @@
-import app, { startExpressServer } from "./express";
-import graphqlServer from "./apollo";
+import { GraphqlServer } from "./helpers/apollo";
+import app, { startExpressServer } from "./helpers/express";
 
 startExpressServer();
 
-graphqlServer.start().then(() => {
-  graphqlServer.applyMiddleware({ app });
-});
+const graphqlServer = new GraphqlServer(app);
+
+graphqlServer.start();

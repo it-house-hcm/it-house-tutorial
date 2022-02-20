@@ -1,0 +1,82 @@
+{"level":"info","message":"19/Feb/2022:09:44:34 +0000 GRAPHQL query($provinceId:ID!$districtId:ID!){getProvince{id name createdAt}getDistrict(provinceId:$provinceId){id name}getWard(districtId:$districtId){id name}} - 200 - 5.441 ms\n"}
+{"level":"error"}
+[2022-02-19 16:47:57][[32minfo[39m] 19/Feb/2022:09:47:57 +0000 GRAPHQL query($provinceId:ID!$districtId:ID!){getProvince{id name createdAt}getDistrict(provinceId:$provinceId){id name}getWard(districtId:$districtId){id name}} - 200 - 16.006 ms
+
+[2022-02-19 16:50:54][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 16.234 ms
+
+[2022-02-19 17:11:49][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 81.739 ms
+
+[2022-02-19 17:11:50][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 59.274 ms
+
+[2022-02-19 17:12:25][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 420.592 ms
+
+[2022-02-19 17:13:36][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 69.934 ms
+
+[2022-02-19 17:13:36][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 62.569 ms
+
+[2022-02-19 17:13:37][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 63.185 ms
+
+[2022-02-19 17:13:38][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 60.951 ms
+
+[2022-02-19 17:13:38][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 62.893 ms
+
+[2022-02-19 17:13:39][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 61.580 ms
+
+[2022-02-19 17:13:39][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 60.973 ms
+
+[2022-02-19 17:14:02][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 59.214 ms
+
+[2022-02-19 17:14:03][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 50.195 ms
+
+[2022-02-19 17:14:03][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 49.432 ms
+
+[2022-02-19 17:14:23][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 100.175 ms
+
+[2022-02-19 17:15:40][[32minfo[39m] GRAPHQL query($getDistrictProvinceId2:ID!){getDistrict(provinceId:$getDistrictProvinceId2){id name}} - 400 - 37.209 ms
+
+[2022-02-19 17:15:47][[32minfo[39m] GRAPHQL query($getDistrictProvinceId2:ID!){getDistrict(provinceId:$getDistrictProvinceId2){id name}} - 400 - 1.381 ms
+
+[2022-02-19 17:16:08][[32minfo[39m] GRAPHQL query($getDistrictProvinceId2:ID!){getDistrict(provinceId:$getDistrictProvinceId2){id name}} - 400 - 26.101 ms
+
+[2022-02-19 17:16:42][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 65.453 ms
+
+[2022-02-19 17:17:19][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 69.425 ms
+
+[2022-02-19 17:17:20][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 51.572 ms
+
+[2022-02-19 17:17:34][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 59.604 ms
+
+[2022-02-19 17:17:35][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 56.015 ms
+
+[2022-02-19 17:18:14][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 809.698 ms
+
+[2022-02-19 17:20:01][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 85.190 ms
+
+[2022-02-19 17:20:03][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 67.474 ms
+
+[2022-02-19 17:20:43][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 77.364 ms
+
+[2022-02-19 17:21:08][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 58.408 ms
+
+[2022-02-19 17:21:09][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 48.897 ms
+
+[2022-02-19 17:22:00][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 70.340 ms
+
+[2022-02-19 17:22:01][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 58.167 ms
+
+[2022-02-19 17:22:02][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 57.909 ms
+
+[2022-02-19 17:22:22][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 72.292 ms
+
+[2022-02-19 17:22:50][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 894.969 ms
+
+[2022-02-19 17:22:52][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 61.499 ms
+
+[2022-02-19 17:22:52][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 58.954 ms
+
+[2022-02-19 17:23:16][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 77.742 ms
+
+[2022-02-19 17:23:35][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 680.568 ms
+
+[2022-02-19 17:24:30][[32minfo[39m] GRAPHQL query($districtId:String!){getWard(districtId:$districtId){id name}} - 200 - 58.473 ms
+
