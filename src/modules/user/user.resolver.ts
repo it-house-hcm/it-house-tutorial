@@ -1,15 +1,19 @@
 import { validateEmail } from "../../helpers/functions/string";
-import { UserModel } from "./user.model";
+import { UserModel, UserRole } from "./user.model";
 import passwordHash from "password-hash";
+import { Context } from "../../helpers/graphql/context";
+import _ from "lodash";
 
 export default {
   Query: {
-    getAllUser: async (root: any, args: any, context: any) => {
+    getAllUser: async (root: any, args: any, context: Context) => {
+      context.auth(["ADMIN"]);
       const { q } = args;
       return await fetch(q);
     },
     getOneUser: async (root: any, args: any, context: any) => {
       const { id } = args;
+
       // step 1: check user is exist
       const user = await UserModel.findById(id);
       if (!user) {
@@ -20,7 +24,8 @@ export default {
     },
   },
   Mutation: {
-    createUser: async (root: any, args: any, context: any) => {
+    createUser: async (root: any, args: any, context: Context) => {
+      context.auth(["ADMIN", "USER"]).grant(["user.create"]);
       const { data } = args;
       const { username, password, name, email, phone, role } = data;
       // step 1: check username is valid
@@ -46,7 +51,8 @@ export default {
       });
       return user;
     },
-    updateUser: async (root: any, args: any, context: any) => {
+    updateUser: async (root: any, args: any, context: Context) => {
+      context.auth(["ADMIN"]).grant(["user.update"]);
       const { id, data } = args;
       const { name, email, phone } = data;
       // step 1: check user is exist
@@ -68,6 +74,7 @@ export default {
       );
     },
     deleteUser: async (root: any, args: any, context: any) => {
+      context.auth(["ADMIN"]).grant(["user.delete"]);
       const { id } = args;
       // step 1: check user is exist
       const user = await UserModel.findById(id);
@@ -102,7 +109,7 @@ type QueryInput = {
   search?: string;
 };
 
-async function fetch(queryInput: QueryInput, select?: string) {
+async function fetch(queryInput: QueryInput = {}, select?: string) {
   const limit = queryInput.limit || 10;
   const skip = ((queryInput.page || 1) - 1) * limit || 0;
   const order = queryInput.order;
@@ -110,26 +117,26 @@ async function fetch(queryInput: QueryInput, select?: string) {
   const model = UserModel;
   const query = model.find();
 
-  //   if (search) {
-  //     if (search.includes(" ")) {
-  //       set(queryInput, "filter.$text.$search", search);
-  //       query.select({ _score: { $meta: "textScore" } });
-  //       query.sort({ _score: { $meta: "textScore" } });
-  //     } else {
-  //       const textSearchIndex = this.model.schema
-  //         .indexes()
-  //         .filter((c: any) => values(c[0]!).some((d: any) => d == "text"));
-  //       if (textSearchIndex.length > 0) {
-  //         const or: any[] = [];
-  //         textSearchIndex.forEach((index) => {
-  //           Object.keys(index[0]!).forEach((key) => {
-  //             or.push({ [key]: { $regex: search, $options: "i" } });
-  //           });
-  //         });
-  //         set(queryInput, "filter.$or", or);
-  //       }
-  //     }
-  //   }
+  if (search) {
+    if (search.includes(" ")) {
+      _.set(queryInput, "filter.$text.$search", search);
+      query.select({ _score: { $meta: "textScore" } });
+      query.sort({ _score: { $meta: "textScore" } });
+    } else {
+      const textSearchIndex = model.schema
+        .indexes()
+        .filter((c: any) => _.values(c[0]!).some((d: any) => d == "text"));
+      if (textSearchIndex.length > 0) {
+        const or: any[] = [];
+        textSearchIndex.forEach((index) => {
+          Object.keys(index[0]!).forEach((key) => {
+            or.push({ [key]: { $regex: search, $options: "i" } });
+          });
+        });
+        _.set(queryInput, "filter.$or", or);
+      }
+    }
+  }
 
   if (order) {
     query.sort(order);

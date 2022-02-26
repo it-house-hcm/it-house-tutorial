@@ -43,6 +43,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
     "express": "^4.17.2",
+    "firebase-admin": "^10.0.2",
     "graphql": "^16.3.0",
     "graphql-type-datetime": "^0.2.4",
     "graphql-upload": "^13.0.0",

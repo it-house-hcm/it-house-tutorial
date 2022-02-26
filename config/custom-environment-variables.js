@@ -3,20 +3,13 @@ module.exports = {
   mongo: {
     uri: "MONGO_URI",
   },
-  number: {
-    __name: "NUMBER",
-    __format: "number",
+  firebase: {
+    serviceAccount: {
+      __name: "FIREBASE_SERVICE_ACCOUNT",
+      __format: "json",
+    },
   },
-  flag: {
-    __name: "FLAG",
-    __format: "boolean",
-  },
-  array: {
-    __name: "ARRAY",
-    __format: "json",
-  },
-  object: {
-    __name: "OBJECT",
-    __format: "json",
+  redis: {
+    url: "REDIS_URL",
   },
 };
