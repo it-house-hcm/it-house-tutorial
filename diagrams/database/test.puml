@@ -1,0 +1,38 @@
+@startuml
+
+map Product {
+    id => string
+    name => string
+    categoryId => string
+}
+
+map Category {
+    id => string
+    name => string
+    productIds => string[]
+}
+
+Product }-- Category
+
+map Post {
+    id => string
+    title => string
+    content => string
+    authorId => string
+}
+
+map User {
+    id => string
+    name => string
+}
+
+map PostView {
+    postId => string
+    userId => string
+    viewTime => string
+}
+
+Post --{ PostView
+PostView }-- User
+
+@enduml
