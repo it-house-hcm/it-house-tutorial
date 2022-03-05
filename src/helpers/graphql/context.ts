@@ -1,6 +1,7 @@
 import { Request } from "express";
 import { TokenExpiredError } from "jsonwebtoken";
 import _ from "lodash";
+import { UserRole } from "../../modules/user/user.model";
 import Token from "../token";
 
 export class Context {
@@ -34,6 +35,18 @@ export class Context {
     if (!this.isAuth) return [];
     if (!this.token) return [];
     return _.get(this.token, "payload.scopes", []);
+  }
+
+  get isAdmin() {
+    if (!this.isAuth) return false;
+    if (!this.token) return false;
+    return this.token.role === UserRole.ADMIN;
+  }
+
+  get isUser() {
+    if (!this.isAuth) return false;
+    if (!this.token) return false;
+    return this.token.role === UserRole.USER;
   }
 
   auth(roles: string[]) {

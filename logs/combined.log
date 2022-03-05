@@ -1,614 +1,663 @@
-{"level":"info","message":"19/Feb/2022:09:44:34 +0000 GRAPHQL query($provinceId:ID!$districtId:ID!){getProvince{id name createdAt}getDistrict(provinceId:$provinceId){id name}getWard(districtId:$districtId){id name}} - 200 - 5.441 ms\n"}
-{"level":"error"}
-[2022-02-19 16:47:57][[32minfo[39m] 19/Feb/2022:09:47:57 +0000 GRAPHQL query($provinceId:ID!$districtId:ID!){getProvince{id name createdAt}getDistrict(provinceId:$provinceId){id name}getWard(districtId:$districtId){id name}} - 200 - 16.006 ms
-
-[2022-02-19 16:50:54][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 16.234 ms
-
-[2022-02-19 17:11:49][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 81.739 ms
-
-[2022-02-19 17:11:50][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 59.274 ms
-
-[2022-02-19 17:12:25][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 420.592 ms
-
-[2022-02-19 17:13:36][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 69.934 ms
-
-[2022-02-19 17:13:36][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 62.569 ms
-
-[2022-02-19 17:13:37][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 63.185 ms
-
-[2022-02-19 17:13:38][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 60.951 ms
-
-[2022-02-19 17:13:38][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 62.893 ms
-
-[2022-02-19 17:13:39][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 61.580 ms
-
-[2022-02-19 17:13:39][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 60.973 ms
-
-[2022-02-19 17:14:02][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 59.214 ms
-
-[2022-02-19 17:14:03][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 50.195 ms
-
-[2022-02-19 17:14:03][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 49.432 ms
-
-[2022-02-19 17:14:23][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 100.175 ms
-
-[2022-02-19 17:15:40][[32minfo[39m] GRAPHQL query($getDistrictProvinceId2:ID!){getDistrict(provinceId:$getDistrictProvinceId2){id name}} - 400 - 37.209 ms
-
-[2022-02-19 17:15:47][[32minfo[39m] GRAPHQL query($getDistrictProvinceId2:ID!){getDistrict(provinceId:$getDistrictProvinceId2){id name}} - 400 - 1.381 ms
-
-[2022-02-19 17:16:08][[32minfo[39m] GRAPHQL query($getDistrictProvinceId2:ID!){getDistrict(provinceId:$getDistrictProvinceId2){id name}} - 400 - 26.101 ms
-
-[2022-02-19 17:16:42][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 65.453 ms
-
-[2022-02-19 17:17:19][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 69.425 ms
-
-[2022-02-19 17:17:20][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 51.572 ms
-
-[2022-02-19 17:17:34][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 59.604 ms
-
-[2022-02-19 17:17:35][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 56.015 ms
-
-[2022-02-19 17:18:14][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 809.698 ms
-
-[2022-02-19 17:20:01][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 85.190 ms
-
-[2022-02-19 17:20:03][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 67.474 ms
-
-[2022-02-19 17:20:43][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 77.364 ms
-
-[2022-02-19 17:21:08][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 58.408 ms
-
-[2022-02-19 17:21:09][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 48.897 ms
-
-[2022-02-19 17:22:00][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 70.340 ms
-
-[2022-02-19 17:22:01][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 58.167 ms
-
-[2022-02-19 17:22:02][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 57.909 ms
-
-[2022-02-19 17:22:22][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 72.292 ms
-
-[2022-02-19 17:22:50][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 894.969 ms
-
-[2022-02-19 17:22:52][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 61.499 ms
-
-[2022-02-19 17:22:52][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 58.954 ms
-
-[2022-02-19 17:23:16][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 77.742 ms
-
-[2022-02-19 17:23:35][[32minfo[39m] GRAPHQL query($provinceId:String!){getDistrict(provinceId:$provinceId){id name}} - 200 - 680.568 ms
-
-[2022-02-19 17:24:30][[32minfo[39m] GRAPHQL query($districtId:String!){getWard(districtId:$districtId){id name}} - 200 - 58.473 ms
-
-[2022-02-20 15:19:14][[32minfo[39m] GRAPHQL - - 200 - 1.095 ms
-
-[2022-02-20 15:19:28][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 53.571 ms
-
-[2022-02-20 15:19:35][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 52.114 ms
-
-[2022-02-20 15:19:35][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 47.748 ms
-
-[2022-02-20 15:19:36][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 46.047 ms
-
-[2022-02-20 15:19:36][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 42.256 ms
-
-[2022-02-20 15:19:37][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 41.752 ms
-
-[2022-02-20 15:19:38][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 42.291 ms
-
-[2022-02-20 15:22:39][[32minfo[39m] Redis connected
-[2022-02-20 15:22:58][[32minfo[39m] Redis connected
-[2022-02-20 15:22:58][[32minfo[39m] Get province from db
-[2022-02-20 15:22:59][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 716.861 ms
-
-[2022-02-20 15:23:02][[32minfo[39m] Get province from redis
-[2022-02-20 15:23:02][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 7.502 ms
-
-[2022-02-20 15:23:03][[32minfo[39m] Get province from redis
-[2022-02-20 15:23:03][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 4.122 ms
-
-[2022-02-20 15:23:04][[32minfo[39m] Get province from redis
-[2022-02-20 15:23:04][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 3.503 ms
-
-[2022-02-20 15:23:11][[32minfo[39m] Get province from redis
-[2022-02-20 15:23:11][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 4.814 ms
-
-[2022-02-20 15:24:28][[32minfo[39m] Get province from db
-[2022-02-20 15:24:28][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 56.855 ms
-
-[2022-02-20 15:25:39][[32minfo[39m] Redis connected
-[2022-02-20 15:28:33][[32minfo[39m] Redis connected
-[2022-02-20 15:28:43][[32minfo[39m] Get province from db
-[2022-02-20 15:28:43][[32minfo[39m] GRAPHQL query{getProvince{id name}} - 200 - 60.287 ms
-
-[2022-02-20 15:30:01][[32minfo[39m] Redis connected
-[2022-02-20 15:30:47][[32minfo[39m] Redis connected
-[2022-02-20 15:31:42][[32minfo[39m] Redis connected
-[2022-02-20 15:31:44][[32minfo[39m] Get province from db
-[2022-02-20 15:31:44][[32minfo[39m] GRAPHQL query{getProvince{id name view}} - 200 - 91.503 ms
-
-[2022-02-20 15:31:45][[32minfo[39m] Get province from redis
-[2022-02-20 15:31:45][[32minfo[39m] GRAPHQL query{getProvince{id name view}} - 200 - 12.844 ms
-
-[2022-02-20 15:31:46][[32minfo[39m] Get province from redis
-[2022-02-20 15:31:46][[32minfo[39m] GRAPHQL query{getProvince{id name view}} - 200 - 11.273 ms
-
-[2022-02-20 15:31:59][[32minfo[39m] Redis connected
-[2022-02-20 15:32:00][[32minfo[39m] Get province from redis
-[2022-02-20 15:32:00][[32minfo[39m] GRAPHQL query{getProvince{id name view}} - 200 - 16.952 ms
-
-[2022-02-20 15:32:01][[32minfo[39m] Get province from redis
-[2022-02-20 15:32:01][[32minfo[39m] GRAPHQL query{getProvince{id name view}} - 200 - 9.698 ms
-
-[2022-02-20 15:32:01][[32minfo[39m] Get province from redis
-[2022-02-20 15:32:01][[32minfo[39m] GRAPHQL query{getProvince{id name view}} - 200 - 11.827 ms
-
-[2022-02-20 15:32:02][[32minfo[39m] Get province from redis
-[2022-02-20 15:32:02][[32minfo[39m] GRAPHQL query{getProvince{id name view}} - 200 - 16.899 ms
-
-[2022-02-20 15:32:03][[32minfo[39m] Get province from redis
-[2022-02-20 15:32:03][[32minfo[39m] GRAPHQL query{getProvince{id name view}} - 200 - 11.703 ms
-
-[2022-02-20 15:32:03][[32minfo[39m] Get province from redis
-[2022-02-20 15:32:03][[32minfo[39m] GRAPHQL query{getProvince{id name view}} - 200 - 7.667 ms
-
-[2022-02-20 15:32:04][[32minfo[39m] Get province from redis
-[2022-02-20 15:32:04][[32minfo[39m] GRAPHQL query{getProvince{id name view}} - 200 - 11.547 ms
-
-[2022-02-20 15:32:04][[32minfo[39m] Get province from redis
-[2022-02-20 15:32:04][[32minfo[39m] GRAPHQL query{getProvince{id name view}} - 200 - 9.483 ms
-
-[2022-02-20 15:32:05][[32minfo[39m] Get province from redis
-[2022-02-20 15:32:05][[32minfo[39m] GRAPHQL query{getProvince{id name view}} - 200 - 8.814 ms
-
-[2022-02-20 15:32:06][[32minfo[39m] Get province from redis
-[2022-02-20 15:32:06][[32minfo[39m] GRAPHQL query{getProvince{id name view}} - 200 - 8.781 ms
-
-[2022-02-20 15:32:06][[32minfo[39m] Get province from redis
-[2022-02-20 15:32:06][[32minfo[39m] GRAPHQL query{getProvince{id name view}} - 200 - 10.972 ms
-
-[2022-02-20 15:32:07][[32minfo[39m] Get province from redis
-[2022-02-20 15:32:07][[32minfo[39m] GRAPHQL query{getProvince{id name view}} - 200 - 7.866 ms
-
-[2022-02-20 15:38:18][[32minfo[39m] Redis connected
-[2022-02-20 15:39:06][[32minfo[39m] Redis connected
-[2022-02-20 15:39:32][[32minfo[39m] Redis connected
-[2022-02-20 15:47:52][[32minfo[39m] Redis connected
-[2022-02-20 15:52:02][[32minfo[39m] Redis connected
-[2022-02-20 15:53:26][[32minfo[39m] Redis connected
-[2022-02-20 15:53:44][[32minfo[39m] Redis connected
-[2022-02-20 15:53:59][[32minfo[39m] Redis connected
-[2022-02-20 15:54:04][[32minfo[39m] Redis connected
-[2022-02-20 15:55:29][[32minfo[39m] Redis connected
-[2022-02-20 15:56:50][[32minfo[39m] Redis connected
-[2022-02-20 15:57:38][[32minfo[39m] Redis connected
-[2022-02-20 15:58:05][[32minfo[39m] Redis connected
-[2022-02-20 15:58:17][[32minfo[39m] Redis connected
-[2022-02-20 16:01:58][[32minfo[39m] Redis connected
-[2022-02-20 16:03:38][[32minfo[39m] Redis connected
-[2022-02-20 16:03:44][[32minfo[39m] Redis connected
-[2022-02-20 16:04:58][[32minfo[39m] Redis connected
-[2022-02-20 16:05:07][[32minfo[39m] Redis connected
-[2022-02-20 16:05:20][[32minfo[39m] Redis connected
-[2022-02-20 16:06:08][[32minfo[39m] GRAPHQL mutation($data:CreateUserInput!){createUser(data:$data){id username}} - 200 - 7.535 ms
-
-[2022-02-20 16:06:55][[32minfo[39m] GRAPHQL mutation{createUser(data:{username:"duong" email:"123123" password:"123123123" phone:"123123" role:ADMIN}){id username}} - 400 - 51.776 ms
-
-[2022-02-20 16:07:06][[32minfo[39m] GRAPHQL mutation{createUser(data:{username:"duong" name:"duong" email:"123123" password:"123123123" phone:"123123" role:ADMIN}){id username}} - 200 - 2.131 ms
-
-[2022-02-20 16:08:06][[32minfo[39m] Redis connected
-[2022-02-20 16:09:29][[32minfo[39m] Redis connected
-[2022-02-20 16:11:05][[32minfo[39m] Redis connected
-[2022-02-20 16:11:30][[32minfo[39m] Redis connected
-[2022-02-20 16:12:51][[32minfo[39m] Redis connected
-[2022-02-20 16:13:08][[32minfo[39m] Redis connected
-[2022-02-20 16:13:57][[32minfo[39m] Redis connected
-[2022-02-20 16:14:07][[32minfo[39m] Redis connected
-[2022-02-20 16:14:35][[32minfo[39m] Redis connected
-[2022-02-20 16:14:48][[32minfo[39m] Redis connected
-[2022-02-20 16:15:05][[32minfo[39m] Redis connected
-[2022-02-20 16:16:03][[32minfo[39m] Redis connected
-[2022-02-20 16:16:29][[32minfo[39m] Redis connected
-[2022-02-20 16:17:09][[32minfo[39m] Redis connected
-[2022-02-20 16:18:15][[32minfo[39m] Redis connected
-[2022-02-20 16:18:43][[32minfo[39m] Redis connected
-[2022-02-20 16:19:09][[32minfo[39m] Redis connected
-[2022-02-20 16:19:10][[32minfo[39m] Mongoose connected
-[2022-02-20 16:19:19][[32minfo[39m] GRAPHQL mutation{createUser(data:{username:"duong" name:"duong" email:"123123" password:"123123123" phone:"123123" role:"ADMIN"}){id username}} - 200 - 37.483 ms
-
-[2022-02-20 16:19:31][[32minfo[39m] GRAPHQL mutation{createUser(data:{username:"diepmyduong" name:"duong" email:"123123" password:"123123123" phone:"123123" role:"ADMIN"}){id username}} - 200 - 3.634 ms
-
-[2022-02-20 16:19:42][[32minfo[39m] GRAPHQL mutation{createUser(data:{username:"diepmyduong" name:"duong" email:"diepmyduong@gmail.com" password:"123123" phone:"123123" role:"ADMIN"}){id username}} - 200 - 61.530 ms
-
-[2022-02-20 16:20:00][[32minfo[39m] GRAPHQL query{getAllUser{id username}} - 200 - 49.551 ms
-
-[2022-02-20 16:20:07][[32minfo[39m] GRAPHQL mutation{createUser(data:{username:"diepmyduong2" name:"duong" email:"diepmyduong@gmail.com" password:"123123" phone:"123123" role:"ADMIN"}){id username}} - 200 - 124.714 ms
-
-[2022-02-20 16:20:11][[32minfo[39m] GRAPHQL query{getAllUser{id username}} - 200 - 48.543 ms
-
-[2022-02-20 16:21:36][[32minfo[39m] Redis connected
-[2022-02-20 16:21:37][[32minfo[39m] Mongoose connected
-[2022-02-20 16:23:41][[32minfo[39m] Redis connected
-[2022-02-20 16:23:42][[32minfo[39m] Mongoose connected
-[2022-02-20 16:23:47][[32minfo[39m] GRAPHQL query{getOneUser(id:"6211efeef0d4a4adcb44a6e5"){id username}} - 200 - 49.781 ms
-
-[2022-02-20 16:25:01][[32minfo[39m] Redis connected
-[2022-02-20 16:25:01][[32minfo[39m] Mongoose connected
-[2022-02-20 16:25:30][[32minfo[39m] Redis connected
-[2022-02-20 16:25:30][[32minfo[39m] Mongoose connected
-[2022-02-20 16:26:50][[32minfo[39m] Redis connected
-[2022-02-20 16:26:51][[32minfo[39m] Mongoose connected
-[2022-02-20 16:26:54][[32minfo[39m] GRAPHQL query{getOneUser(id:"6211efeef0d4a4adcb44a6e5"){id username name}} - 200 - 62.929 ms
-
-[2022-02-20 16:27:16][[32minfo[39m] GRAPHQL mutation($updateUserId:ID!$data:UpdateUserInput!){updateUser(id:$updateUserId data:$data){id username name}} - 200 - 113.747 ms
-
-[2022-02-20 16:27:23][[32minfo[39m] GRAPHQL mutation($updateUserId:ID!$data:UpdateUserInput!){updateUser(id:$updateUserId data:$data){id username name}} - 200 - 62.710 ms
-
-[2022-02-20 16:27:33][[32minfo[39m] GRAPHQL mutation($updateUserId:ID!$data:UpdateUserInput!){updateUser(id:$updateUserId data:$data){id username name}} - 200 - 83.385 ms
-
-[2022-02-20 16:27:36][[32minfo[39m] GRAPHQL mutation($updateUserId:ID!$data:UpdateUserInput!){updateUser(id:$updateUserId data:$data){id username name email}} - 200 - 95.899 ms
-
-[2022-02-20 16:28:18][[32minfo[39m] Redis connected
-[2022-02-20 16:28:18][[32minfo[39m] Mongoose connected
-[2022-02-20 16:33:03][[32minfo[39m] Redis connected
-[2022-02-20 16:33:04][[32minfo[39m] Mongoose connected
-[2022-02-20 16:35:25][[32minfo[39m] Redis connected
-[2022-02-20 16:35:38][[32minfo[39m] Redis connected
-[2022-02-20 16:35:38][[32minfo[39m] Mongoose connected
-[2022-02-20 16:37:07][[32minfo[39m] Redis connected
-[2022-02-20 16:37:07][[32minfo[39m] Mongoose connected
-[2022-02-20 16:39:34][[32minfo[39m] Redis connected
-[2022-02-20 16:39:35][[32minfo[39m] Mongoose connected
-[2022-02-20 16:40:19][[32minfo[39m] Redis connected
-[2022-02-20 16:40:19][[32minfo[39m] Mongoose connected
-[2022-02-20 16:45:37][[32minfo[39m] Redis connected
-[2022-02-20 16:45:38][[32minfo[39m] Mongoose connected
-[2022-02-20 16:48:13][[32minfo[39m] Redis connected
-[2022-02-20 16:48:14][[32minfo[39m] Mongoose connected
-[2022-02-20 16:48:24][[32minfo[39m] Redis connected
-[2022-02-20 16:48:26][[32minfo[39m] Mongoose connected
-[2022-02-20 16:49:07][[32minfo[39m] Redis connected
-[2022-02-20 16:49:08][[32minfo[39m] Mongoose connected
-[2022-02-20 16:49:36][[32minfo[39m] Redis connected
-[2022-02-20 16:49:37][[32minfo[39m] Mongoose connected
-[2022-02-20 16:50:10][[32minfo[39m] GRAPHQL query($q:QueryInput){getAllUser(q:$q){pagination{total limit page}data{id username}}} - 200 - 70.488 ms
-
-[2022-02-20 16:50:15][[32minfo[39m] GRAPHQL query($q:QueryInput){getAllUser(q:$q){pagination{total limit page}data{id username}}} - 200 - 56.177 ms
-
-[2022-02-20 16:50:36][[32minfo[39m] GRAPHQL query($q:QueryInput){getAllUser(q:$q){pagination{total limit page}data{id username}}} - 200 - 58.134 ms
-
-[2022-02-20 16:50:41][[32minfo[39m] GRAPHQL query($q:QueryInput){getAllUser(q:$q){pagination{total limit page}data{id username}}} - 200 - 61.885 ms
-
-[2022-02-20 16:51:04][[32minfo[39m] GRAPHQL query($q:QueryInput){getAllUser(q:$q){pagination{total limit page}data{id username}}} - 200 - 56.618 ms
-
-[2022-02-20 16:51:12][[32minfo[39m] GRAPHQL query($q:QueryInput){getAllUser(q:$q){pagination{total limit page}data{id username}}} - 200 - 62.386 ms
-
-[2022-02-20 16:51:25][[32minfo[39m] GRAPHQL query($q:QueryInput){getAllUser(q:$q){pagination{total limit page}data{id username}}} - 200 - 55.799 ms
-
-[2022-02-20 16:51:29][[32minfo[39m] GRAPHQL query($q:QueryInput){getAllUser(q:$q){pagination{total limit page}data{id username}}} - 200 - 57.271 ms
-
-[2022-02-20 16:52:41][[32minfo[39m] GRAPHQL query($q:QueryInput){getAllUser(q:$q){pagination{total limit page}data{id username}}} - 200 - 57.770 ms
-
-[2022-02-20 16:54:20][[32minfo[39m] Redis connected
-[2022-02-20 16:54:21][[32minfo[39m] Mongoose connected
-[2022-02-20 17:05:11][[32minfo[39m] Redis connected
-[2022-02-20 17:05:18][[32minfo[39m] Redis connected
-[2022-02-20 17:05:19][[32minfo[39m] Mongoose connected
-[2022-02-20 17:09:14][[32minfo[39m] Redis connected
-[2022-02-20 17:09:15][[32minfo[39m] Mongoose connected
-[2022-02-20 17:15:46][[32minfo[39m] Redis connected
-[2022-02-20 17:15:46][[32minfo[39m] Mongoose connected
-[2022-02-20 17:17:00][[32minfo[39m] Redis connected
-[2022-02-20 17:17:00][[32minfo[39m] Mongoose connected
-[2022-02-20 17:18:14][[32minfo[39m] Redis connected
-[2022-02-20 17:18:15][[32minfo[39m] Mongoose connected
-[2022-02-20 17:18:28][[32minfo[39m] Redis connected
-[2022-02-20 17:18:29][[32minfo[39m] Mongoose connected
-[2022-02-20 17:19:13][[32minfo[39m] Redis connected
-[2022-02-20 17:19:14][[32minfo[39m] Mongoose connected
-[2022-02-20 17:21:09][[32minfo[39m] Redis connected
-[2022-02-20 17:21:10][[32minfo[39m] Mongoose connected
-[2022-02-26 16:06:01][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+[2022-03-05 15:56:41][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
 { "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
 Error: connect ECONNREFUSED 127.0.0.1:6379
     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:06:02][[32minfo[39m] Mongoose connected
-[2022-02-26 16:06:05][[32minfo[39m] GRAPHQL - - 200 - 1.083 ms
+[2022-03-05 15:56:42][[32minfo[39m] Mongoose connected
+[2022-03-05 15:57:13][[32minfo[39m] Redis connected
+[2022-03-05 15:57:14][[32minfo[39m] Mongoose connected
+[2022-03-05 15:57:23][[32minfo[39m] GRAPHQL - - 200 - 1.021 ms
 
-[2022-02-26 16:06:45][[32minfo[39m] GRAPHQL mutation($accessToken:String!){loginUserByFirebase(accessToken:$accessToken){user{id email}token}} - 200 - 456.573 ms
+[2022-03-05 16:00:35][[32minfo[39m] GRAPHQL mutation($accessToken:String!){loginUserByFirebase(accessToken:$accessToken){user{id email}token}} - 400 - 2.890 ms
 
-[2022-02-26 16:07:19][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:07:20][[32minfo[39m] Mongoose connected
-[2022-02-26 16:07:21][[32minfo[39m] GRAPHQL mutation($accessToken:String!){loginUserByFirebase(accessToken:$accessToken){user{id email}token}} - 200 - 456.869 ms
+[2022-03-05 16:00:40][[32minfo[39m] GRAPHQL mutation($accessToken:String!){loginUserByFirebase(accessToken:$accessToken){user{id email}token}} - 200 - 699.793 ms
 
-[2022-02-26 16:11:17][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:11:18][[32minfo[39m] Mongoose connected
-[2022-02-26 16:11:28][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:11:29][[32minfo[39m] Mongoose connected
-[2022-02-26 16:11:54][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:11:55][[32minfo[39m] Mongoose connected
-[2022-02-26 16:12:24][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:12:25][[32minfo[39m] Mongoose connected
-[2022-02-26 16:12:44][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:12:44][[32minfo[39m] Mongoose connected
-[2022-02-26 16:13:30][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:13:31][[32minfo[39m] Mongoose connected
-[2022-02-26 16:13:43][[32minfo[39m] GRAPHQL mutation($accessToken:String!){loginUserByFirebase(accessToken:$accessToken){user{id email}token}} - 200 - 468.922 ms
+[2022-03-05 16:01:48][[32minfo[39m] GRAPHQL mutation($accessToken:String!){loginUserByFirebase(accessToken:$accessToken){user{id email}token}} - 200 - 85.230 ms
 
-[2022-02-26 16:14:02][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:14:07][[32minfo[39m] Mongoose connected
-[2022-02-26 16:14:08][[32minfo[39m] GRAPHQL mutation($accessToken:String!){loginUserByFirebase(accessToken:$accessToken){user{id email}token}} - 200 - 5483.544 ms
+[2022-03-05 16:01:52][[32minfo[39m] GRAPHQL mutation($accessToken:String!){loginUserByFirebase(accessToken:$accessToken){user{id email role}token}} - 200 - 58.760 ms
 
-[2022-02-26 16:14:34][[32minfo[39m] GRAPHQL query{getAllUser{data{id name username email phone}}} - 200 - 23.390 ms
+[2022-03-05 16:02:56][[32minfo[39m] GRAPHQL mutation($accessToken:String!){loginUserByFirebase(accessToken:$accessToken){user{id email role}token}} - 200 - 46.836 ms
 
-[2022-02-26 16:15:01][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:15:01][[32minfo[39m] Mongoose connected
-[2022-02-26 16:15:02][[32minfo[39m] GRAPHQL query{getAllUser{data{id name username email phone}}} - 200 - 945.149 ms
+[2022-03-05 16:04:42][[32minfo[39m] GRAPHQL mutation($data:CreateProductInput!){createProduct(data:$data){id name code basePrice sellPrice}} - 200 - 32.885 ms
 
-[2022-02-26 16:18:02][[32minfo[39m] GRAPHQL mutation($accessToken:String!){loginUserByFirebase(accessToken:$accessToken){user{id email}token}} - 200 - 481.703 ms
+[2022-03-05 16:04:51][[32minfo[39m] GRAPHQL mutation($data:CreateProductInput!){createProduct(data:$data){id name code basePrice sellPrice}} - 200 - 113.331 ms
 
-[2022-02-26 16:18:41][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:18:42][[32minfo[39m] Mongoose connected
-[2022-02-26 16:20:36][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:20:37][[32minfo[39m] Mongoose connected
-[2022-02-26 16:21:26][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:21:27][[32minfo[39m] Mongoose connected
-[2022-02-26 16:21:44][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:21:44][[32minfo[39m] Mongoose connected
-[2022-02-26 16:21:51][[32minfo[39m] GRAPHQL mutation($accessToken:String!){loginUserByFirebase(accessToken:$accessToken){user{id email}token}} - 200 - 566.352 ms
+[2022-03-05 16:05:15][[32minfo[39m] GRAPHQL mutation($data:CreateProductInput!){createProduct(data:$data){id name code basePrice sellPrice}} - 200 - 50.620 ms
 
-[2022-02-26 16:22:02][[32minfo[39m] GRAPHQL query{getAllUser{data{id name username email phone}}} - 200 - 51.549 ms
+[2022-03-05 16:05:50][[32minfo[39m] Redis connected
+[2022-03-05 16:05:51][[32minfo[39m] Mongoose connected
+[2022-03-05 16:05:52][[32minfo[39m] GRAPHQL mutation($data:CreateProductInput!){createProduct(data:$data){id name code basePrice sellPrice}} - 200 - 167.130 ms
 
-[2022-02-26 16:23:29][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:23:30][[32minfo[39m] Mongoose connected
-[2022-02-26 16:23:40][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:23:40][[32minfo[39m] Mongoose connected
-[2022-02-26 16:24:54][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:24:55][[32minfo[39m] Mongoose connected
-[2022-02-26 16:25:19][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:25:23][[32minfo[39m] Mongoose connected
-[2022-02-26 16:25:50][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:25:50][[32minfo[39m] Mongoose connected
-[2022-02-26 16:26:01][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:26:01][[32minfo[39m] Mongoose connected
-[2022-02-26 16:26:50][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:26:51][[32minfo[39m] Mongoose connected
-[2022-02-26 16:29:57][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:29:58][[32minfo[39m] Mongoose connected
-[2022-02-26 16:30:39][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:30:40][[32minfo[39m] Mongoose connected
-[2022-02-26 16:30:45][[32minfo[39m] GRAPHQL query{getAllUser{data{id name username email phone}}} - 200 - 23.874 ms
+[2022-03-05 16:08:32][[32minfo[39m] Redis connected
+[2022-03-05 16:08:32][[32minfo[39m] Mongoose connected
+[2022-03-05 16:09:41][[32minfo[39m] Redis connected
+[2022-03-05 16:09:42][[32minfo[39m] Mongoose connected
+[2022-03-05 16:28:38][[32minfo[39m] Redis connected
+[2022-03-05 16:28:39][[32minfo[39m] Mongoose connected
+[2022-03-05 16:31:26][[32minfo[39m] GRAPHQL mutation($data:CreateProductInput!){createProduct(data:$data){id name code basePrice sellPrice attributes{id name required min max options{id name price isDefault}}}} - 200 - 162.072 ms
 
-[2022-02-26 16:31:13][[32minfo[39m] GRAPHQL query{getAllUser{data{id name username email phone}}} - 200 - 66.382 ms
+[2022-03-05 16:32:43][[32minfo[39m] GRAPHQL mutation($data:CreateProductInput!){createProduct(data:$data){id name code basePrice sellPrice attributes{id name required min max options{id name price isDefault}}}} - 200 - 77.020 ms
 
-[2022-02-26 16:32:32][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:32:33][[32minfo[39m] Mongoose connected
-[2022-02-26 16:32:33][[32minfo[39m] GRAPHQL query{getAllUser{data{id name username email phone}}} - 200 - 26.105 ms
+[2022-03-05 16:33:17][[32minfo[39m] GRAPHQL query{getAllProduct(q:{page:1 limit:10}){pagination{total}data{id name code basePrice sellPrice attributes{id name required min max options{id name price isDefault}}}}} - 200 - 76.679 ms
 
-[2022-02-26 16:33:12][[32minfo[39m] GRAPHQL mutation($accessToken:String!){loginUserByFirebase(accessToken:$accessToken){user{id email}token}} - 200 - 445.433 ms
+[2022-03-05 16:33:55][[32minfo[39m] GRAPHQL query{getOneProduct(id:"62232e3bd5354d4a8b462b63"){id name code basePrice sellPrice attributes{id name required min max options{id name price isDefault}}}} - 200 - 64.627 ms
 
-[2022-02-26 16:33:30][[32minfo[39m] GRAPHQL query{getAllUser{data{id name username email phone}}} - 200 - 46.958 ms
+[2022-03-05 16:34:01][[32minfo[39m] GRAPHQL query{getOneProduct(id:"62232e3bd5354d4a8b462b63"){id name code basePrice sellPrice attributes{id name required min max options{id name price isDefault}}view}} - 200 - 47.238 ms
 
-[2022-02-26 16:35:22][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:35:23][[32minfo[39m] Mongoose connected
-[2022-02-26 16:35:38][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:35:39][[32minfo[39m] Mongoose connected
-[2022-02-26 16:36:08][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:36:08][[32minfo[39m] Mongoose connected
-[2022-02-26 16:36:36][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:36:37][[32minfo[39m] Mongoose connected
-[2022-02-26 16:36:56][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:36:57][[32minfo[39m] Mongoose connected
-[2022-02-26 16:37:35][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:37:36][[32minfo[39m] Mongoose connected
-[2022-02-26 16:37:44][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:37:44][[32minfo[39m] Mongoose connected
-[2022-02-26 16:38:11][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:38:12][[32minfo[39m] Mongoose connected
-[2022-02-26 16:38:22][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:38:22][[32minfo[39m] Mongoose connected
-[2022-02-26 16:39:56][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:39:56][[32minfo[39m] Mongoose connected
-[2022-02-26 16:40:32][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:40:33][[32minfo[39m] Mongoose connected
-[2022-02-26 16:41:05][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:41:10][[32minfo[39m] Mongoose connected
-[2022-02-26 16:41:31][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:41:32][[32minfo[39m] Mongoose connected
-[2022-02-26 16:41:49][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:41:50][[32minfo[39m] Mongoose connected
-[2022-02-26 16:42:34][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:42:35][[32minfo[39m] Mongoose connected
-[2022-02-26 16:42:35][[32minfo[39m] GRAPHQL query{getAllUser{data{id name username email phone}}} - 200 - 463.605 ms
+[2022-03-05 16:35:27][[32minfo[39m] Redis connected
+[2022-03-05 16:35:28][[32minfo[39m] Mongoose connected
+[2022-03-05 16:35:44][[32minfo[39m] Redis connected
+[2022-03-05 16:35:45][[32minfo[39m] Mongoose connected
+[2022-03-05 16:35:46][[32minfo[39m] GRAPHQL query{getOneProduct(id:"62232e3bd5354d4a8b462b63"){id name code basePrice sellPrice attributes{id name required min max options{id name price isDefault}}view}} - 200 - 161.434 ms
 
-[2022-02-26 16:42:36][[32minfo[39m] GRAPHQL query{getAllUser{data{id name username email phone}}} - 200 - 54.516 ms
+[2022-03-05 16:35:47][[32minfo[39m] GRAPHQL query{getOneProduct(id:"62232e3bd5354d4a8b462b63"){id name code basePrice sellPrice attributes{id name required min max options{id name price isDefault}}view}} - 200 - 45.072 ms
 
-[2022-02-26 16:42:44][[32minfo[39m] GRAPHQL mutation($updateUserId:ID!$data:UpdateUserInput!){updateUser(id:$updateUserId data:$data){id username name email}} - 200 - 30.373 ms
+[2022-03-05 16:35:48][[32minfo[39m] GRAPHQL query{getOneProduct(id:"62232e3bd5354d4a8b462b63"){id name code basePrice sellPrice attributes{id name required min max options{id name price isDefault}}view}} - 200 - 44.232 ms
 
-[2022-02-26 16:42:55][[32minfo[39m] GRAPHQL mutation($updateUserId:ID!$data:UpdateUserInput!){updateUser(id:$updateUserId data:$data){id username name email}} - 200 - 1.659 ms
+[2022-03-05 16:36:06][[32minfo[39m] Redis connected
+[2022-03-05 16:36:06][[32minfo[39m] Mongoose connected
+[2022-03-05 16:36:07][[32minfo[39m] GRAPHQL query{getOneProduct(id:"62232e3bd5354d4a8b462b63"){id name code basePrice sellPrice attributes{id name required min max options{id name price isDefault}}view}} - 200 - 816.875 ms
 
-[2022-02-26 16:43:31][[32minfo[39m] GRAPHQL mutation($accessToken:String!){loginUserByFirebase(accessToken:$accessToken){user{id email}token}} - 200 - 671.954 ms
+[2022-03-05 16:36:07][[32minfo[39m] GRAPHQL query{getOneProduct(id:"62232e3bd5354d4a8b462b63"){id name code basePrice sellPrice attributes{id name required min max options{id name price isDefault}}view}} - 200 - 46.210 ms
 
-[2022-02-26 16:44:08][[32minfo[39m] GRAPHQL mutation($updateUserId:ID!$data:UpdateUserInput!){updateUser(id:$updateUserId data:$data){id username name email}} - 200 - 359.656 ms
+[2022-03-05 16:36:08][[32minfo[39m] GRAPHQL query{getOneProduct(id:"62232e3bd5354d4a8b462b63"){id name code basePrice sellPrice attributes{id name required min max options{id name price isDefault}}view}} - 200 - 44.209 ms
 
-[2022-02-26 16:46:19][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:46:20][[32minfo[39m] Mongoose connected
-[2022-02-26 16:47:39][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:47:40][[32minfo[39m] Mongoose connected
-[2022-02-26 16:47:57][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:47:57][[32minfo[39m] Mongoose connected
-[2022-02-26 16:49:41][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:49:41][[32minfo[39m] Mongoose connected
-[2022-02-26 16:50:24][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:50:24][[32minfo[39m] Mongoose connected
-[2022-02-26 16:50:47][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:50:47][[32minfo[39m] Mongoose connected
-[2022-02-26 16:53:13][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:53:14][[32minfo[39m] Mongoose connected
-[2022-02-26 16:56:34][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:56:35][[32minfo[39m] Mongoose connected
-[2022-02-26 16:57:53][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:57:53][[32minfo[39m] Mongoose connected
-[2022-02-26 16:58:01][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 16:58:02][[32minfo[39m] Mongoose connected
-[2022-02-26 17:07:40][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 17:07:41][[32minfo[39m] Mongoose connected
-[2022-02-26 17:09:04][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 17:09:05][[32minfo[39m] Mongoose connected
-[2022-02-26 17:11:18][[32minfo[39m] GRAPHQL query{getAllUser(q:{search:"Duong"}){data{id name username email phone}}} - 200 - 63.107 ms
+[2022-03-05 16:36:09][[32minfo[39m] GRAPHQL query{getOneProduct(id:"62232e3bd5354d4a8b462b63"){id name code basePrice sellPrice attributes{id name required min max options{id name price isDefault}}view}} - 200 - 44.331 ms
 
-[2022-02-26 17:34:07][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
-{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
-Error: connect ECONNREFUSED 127.0.0.1:6379
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
-[2022-02-26 17:34:08][[32minfo[39m] Mongoose connected
+[2022-03-05 16:36:10][[32minfo[39m] GRAPHQL query{getOneProduct(id:"62232e3bd5354d4a8b462b63"){id name code basePrice sellPrice attributes{id name required min max options{id name price isDefault}}view}} - 200 - 44.921 ms
+
+[2022-03-05 16:36:11][[32minfo[39m] GRAPHQL query{getOneProduct(id:"62232e3bd5354d4a8b462b63"){id name code basePrice sellPrice attributes{id name required min max options{id name price isDefault}}view}} - 200 - 45.845 ms
+
+[2022-03-05 16:36:12][[32minfo[39m] GRAPHQL query{getOneProduct(id:"62232e3bd5354d4a8b462b63"){id name code basePrice sellPrice attributes{id name required min max options{id name price isDefault}}view}} - 200 - 43.181 ms
+
+[2022-03-05 16:36:12][[32minfo[39m] GRAPHQL query{getOneProduct(id:"62232e3bd5354d4a8b462b63"){id name code basePrice sellPrice attributes{id name required min max options{id name price isDefault}}view}} - 200 - 45.266 ms
+
+[2022-03-05 16:36:13][[32minfo[39m] GRAPHQL query{getOneProduct(id:"62232e3bd5354d4a8b462b63"){id name code basePrice sellPrice attributes{id name required min max options{id name price isDefault}}view}} - 200 - 44.571 ms
+
+[2022-03-05 16:37:26][[32minfo[39m] Redis connected
+[2022-03-05 16:37:27][[32minfo[39m] Mongoose connected
+[2022-03-05 16:37:41][[32minfo[39m] Redis connected
+[2022-03-05 16:37:41][[32minfo[39m] Mongoose connected
+[2022-03-05 16:42:40][[32minfo[39m] Redis connected
+[2022-03-05 16:42:40][[32minfo[39m] Mongoose connected
+[2022-03-05 16:46:11][[32minfo[39m] Redis connected
+[2022-03-05 16:46:12][[32minfo[39m] Mongoose connected
+[2022-03-05 16:46:36][[32minfo[39m] GRAPHQL mutation{likeProduct(productId:"62232e3bd5354d4a8b462b63")} - 200 - 85.643 ms
+
+[2022-03-05 16:46:37][[32minfo[39m] GRAPHQL mutation{likeProduct(productId:"62232e3bd5354d4a8b462b63")} - 200 - 51.853 ms
+
+[2022-03-05 16:46:38][[32minfo[39m] GRAPHQL mutation{likeProduct(productId:"62232e3bd5354d4a8b462b63")} - 200 - 58.517 ms
+
+[2022-03-05 16:47:59][[32minfo[39m] Redis connected
+[2022-03-05 16:48:00][[32minfo[39m] Mongoose connected
+[2022-03-05 16:48:15][[32minfo[39m] Redis connected
+[2022-03-05 16:48:16][[32minfo[39m] Mongoose connected
+[2022-03-05 16:48:17][[32minfo[39m] GRAPHQL query{getOneProduct(id:"62232e3bd5354d4a8b462b63"){id name code basePrice sellPrice attributes{id name required min max options{id name price isDefault}}view like}} - 200 - 479.300 ms
+
+[2022-03-05 16:48:26][[32minfo[39m] GRAPHQL query{getAllProduct(q:{page:1 limit:10}){pagination{total}data{id name code basePrice sellPrice attributes{id name required min max options{id name price isDefault}}like}}} - 200 - 97.305 ms
+
+[2022-03-05 16:48:37][[32minfo[39m] GRAPHQL mutation{likeProduct(productId:"62232dedd5354d4a8b462b5d")} - 200 - 62.547 ms
+
+[2022-03-05 16:48:39][[32minfo[39m] GRAPHQL query{getAllProduct(q:{page:1 limit:10}){pagination{total}data{id name code basePrice sellPrice attributes{id name required min max options{id name price isDefault}}like}}} - 200 - 91.938 ms
+
+[2022-03-05 16:50:22][[32minfo[39m] Redis connected
+[2022-03-05 16:50:23][[32minfo[39m] Mongoose connected
+[2022-03-05 16:50:36][[32minfo[39m] Redis connected
+[2022-03-05 16:50:36][[32minfo[39m] Mongoose connected
+[2022-03-05 16:50:38][[32minfo[39m] GRAPHQL query{getAllProduct(q:{page:1 limit:10}){pagination{total}data{id name code basePrice sellPrice attributes{id name required min max options{id name price isDefault}}like isLike}}} - 200 - 551.849 ms
+
+[2022-03-05 16:51:58][[32minfo[39m] Redis connected
+[2022-03-05 16:51:59][[32minfo[39m] Mongoose connected
+[2022-03-05 16:52:08][[32minfo[39m] Redis connected
+[2022-03-05 16:52:09][[32minfo[39m] Mongoose connected
+[2022-03-05 16:54:05][[32minfo[39m] Redis connected
+[2022-03-05 16:54:05][[32minfo[39m] Mongoose connected
+[2022-03-05 16:58:55][[32minfo[39m] Redis connected
+[2022-03-05 16:58:56][[32minfo[39m] Mongoose connected
+[2022-03-05 17:00:05][[32minfo[39m] GRAPHQL mutation($data:CreateCategoryInput!){createCategory(data:$data){id name priority productIds}} - 200 - 98.889 ms
+
+[2022-03-05 17:00:39][[32minfo[39m] Redis connected
+[2022-03-05 17:00:39][[32minfo[39m] Mongoose connected
+[2022-03-05 17:00:43][[32minfo[39m] GRAPHQL mutation($data:CreateCategoryInput!){createCategory(data:$data){id name priority productIds}} - 200 - 83.694 ms
+
+[2022-03-05 17:01:47][[32minfo[39m] GRAPHQL query{getAllCategory{data{id name}}} - 200 - 57.358 ms
+
+[2022-03-05 17:02:00][[32minfo[39m] GRAPHQL mutation($data:CreateCategoryInput!){createCategory(data:$data){id name priority productIds}} - 400 - 41.416 ms
+
+[2022-03-05 17:02:18][[32minfo[39m] GRAPHQL mutation($updateCategoryId:ID!$data:UpdateCategoryInput!){updateCategory(id:$updateCategoryId data:$data){id name priority productIds}} - 200 - 66.884 ms
+
+[2022-03-05 17:03:29][[32minfo[39m] GRAPHQL mutation($updateProductId:ID!$data:UpdateProductInput!){updateProduct(id:$updateProductId data:$data){id name categoryId}} - 200 - 62.726 ms
+
+[2022-03-05 17:04:17][[32minfo[39m] Redis connected
+[2022-03-05 17:04:18][[32minfo[39m] Mongoose connected
+[2022-03-05 17:04:48][[32minfo[39m] Redis connected
+[2022-03-05 17:04:49][[32minfo[39m] Mongoose connected
+[2022-03-05 17:05:48][[32minfo[39m] GRAPHQL query{getAllProduct(q:{page:1 limit:10}){pagination{total}data{id name code basePrice sellPrice attributes{id name required min max options{id name price isDefault}}like isLike category{id name}}}} - 200 - 686.289 ms
+
+[2022-03-05 17:06:29][[32minfo[39m] Redis connected
+[2022-03-05 17:06:30][[32minfo[39m] Mongoose connected
+[2022-03-05 17:06:51][[32minfo[39m] Redis connected
+[2022-03-05 17:06:52][[32minfo[39m] Mongoose connected
+[2022-03-05 17:07:02][[32minfo[39m] Redis connected
+[2022-03-05 17:07:02][[32minfo[39m] Mongoose connected
+[2022-03-05 17:07:18][[32minfo[39m] GRAPHQL query{getAllCategory{data{id name products{id name}}}} - 200 - 115.024 ms
+
+[2022-03-05 17:07:34][[32minfo[39m] GRAPHQL query{getAllCategory{data{id name products{id name category{id name}}}}} - 200 - 141.234 ms
+
+[2022-03-05 17:07:54][[32minfo[39m] GRAPHQL query{getAllCategory{data{id name products{id name category{id name products{id name}}}}}} - 200 - 185.199 ms
+
+[2022-03-05 17:07:56][[32minfo[39m] GRAPHQL query{getAllCategory{data{id name products{id name category{id name products{id name}}}}}} - 200 - 200.584 ms
+
+[2022-03-05 17:10:21][[32minfo[39m] Redis connected
+[2022-03-05 17:10:22][[32minfo[39m] Mongoose connected
+[2022-03-05 17:10:37][[32minfo[39m] Redis connected
+[2022-03-05 17:10:38][[32minfo[39m] Mongoose connected
+[2022-03-05 17:10:38][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-05 17:10:38][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-05 17:10:38][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-05 17:10:38][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-05 17:10:38][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-05 17:10:38][[32minfo[39m] mongo
+{
+  "collectionName": "users",
+  "method": "createIndex",
+  "query": { "username": "text", "name": "text", "email": "text", "phone": "text" }
+}
+[2022-03-05 17:10:38][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "code": 1 } }
+[2022-03-05 17:10:38][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": 1 } }
+[2022-03-05 17:10:38][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1, "userId": 1 } }
+[2022-03-05 17:10:38][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "name": "text", "code": "text" } }
+[2022-03-05 17:10:38][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": "text" } }
+[2022-03-05 17:10:39][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "find", "query": {} }
+[2022-03-05 17:10:39][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "count", "query": {} }
+[2022-03-05 17:10:40][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "find", "query": { "_id": { "$in": [ "62232e3bd5354d4a8b462b63" ] } } }
+[2022-03-05 17:10:40][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "find", "query": { "_id": { "$in": [] } } }
+[2022-03-05 17:10:40][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "findOne", "query": { "_id": "622334a53f2cf67b5770a7be" } }
+[2022-03-05 17:10:40][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "find", "query": { "_id": { "$in": [ "62232e3bd5354d4a8b462b63" ] } } }
+[2022-03-05 17:10:40][[32minfo[39m] GRAPHQL query{getAllCategory{data{id name products{id name category{id name products{id name}}}}}} - 200 - 240.380 ms
+
+[2022-03-05 17:12:14][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "findOneAndUpdate", "query": { "_id": "622334cb14d3c0af01eb58c3" } }
+[2022-03-05 17:12:14][[32minfo[39m] GRAPHQL mutation($updateCategoryId:ID!$data:UpdateCategoryInput!){updateCategory(id:$updateCategoryId data:$data){id name priority productIds}} - 200 - 65.631 ms
+
+[2022-03-05 17:12:17][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "find", "query": {} }
+[2022-03-05 17:12:17][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "count", "query": {} }
+[2022-03-05 17:12:17][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "find", "query": { "_id": { "$in": [ "62232e3bd5354d4a8b462b63" ] } } }
+[2022-03-05 17:12:17][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "find", "query": { "_id": { "$in": [ "62232e3bd5354d4a8b462b63" ] } } }
+[2022-03-05 17:12:17][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "findOne", "query": { "_id": "622334a53f2cf67b5770a7be" } }
+[2022-03-05 17:12:17][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "findOne", "query": { "_id": "622334a53f2cf67b5770a7be" } }
+[2022-03-05 17:12:17][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "find", "query": { "_id": { "$in": [ "62232e3bd5354d4a8b462b63" ] } } }
+[2022-03-05 17:12:17][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "find", "query": { "_id": { "$in": [ "62232e3bd5354d4a8b462b63" ] } } }
+[2022-03-05 17:12:17][[32minfo[39m] GRAPHQL query{getAllCategory{data{id name products{id name category{id name products{id name}}}}}} - 200 - 185.207 ms
+
+[2022-03-05 17:23:07][[32minfo[39m] Redis connected
+[2022-03-05 17:23:07][[32minfo[39m] Mongoose connected
+[2022-03-05 17:23:07][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-05 17:23:07][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-05 17:23:08][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "find", "query": {} }
+[2022-03-05 17:23:08][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "count", "query": {} }
+[2022-03-05 17:23:08][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-05 17:23:08][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-05 17:23:08][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-05 17:23:08][[32minfo[39m] mongo
+{
+  "collectionName": "products",
+  "method": "find",
+  "query": { "_id": { "$in": [ "62232e3bd5354d4a8b462b63", "62232e3bd5354d4a8b462b63" ] } }
+}
+[2022-03-05 17:23:08][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": 1 } }
+[2022-03-05 17:23:08][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1, "userId": 1 } }
+[2022-03-05 17:23:08][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "findOne", "query": { "_id": "622334a53f2cf67b5770a7be" } }
+[2022-03-05 17:23:08][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "findOne", "query": { "_id": "622334a53f2cf67b5770a7be" } }
+[2022-03-05 17:23:08][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "code": 1 } }
+[2022-03-05 17:23:08][[32minfo[39m] mongo
+{
+  "collectionName": "users",
+  "method": "createIndex",
+  "query": { "username": "text", "name": "text", "email": "text", "phone": "text" }
+}
+[2022-03-05 17:23:08][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": "text" } }
+[2022-03-05 17:23:08][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "find", "query": { "_id": { "$in": [ "62232e3bd5354d4a8b462b63" ] } } }
+[2022-03-05 17:23:08][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "find", "query": { "_id": { "$in": [ "62232e3bd5354d4a8b462b63" ] } } }
+[2022-03-05 17:23:08][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "findOne", "query": { "_id": "622334a53f2cf67b5770a7be" } }
+[2022-03-05 17:23:08][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "name": "text", "code": "text" } }
+[2022-03-05 17:23:08][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "findOne", "query": { "_id": "622334a53f2cf67b5770a7be" } }
+[2022-03-05 17:23:09][[32minfo[39m] GRAPHQL query{getAllCategory{data{id name products{id name category{id name products{id name category{id name}}}}}}} - 200 - 875.459 ms
+
+[2022-03-05 17:24:32][[32minfo[39m] Redis connected
+[2022-03-05 17:24:33][[32minfo[39m] Mongoose connected
+[2022-03-05 17:24:33][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-05 17:24:33][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-05 17:24:33][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-05 17:24:33][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-05 17:24:33][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-05 17:24:33][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": 1 } }
+[2022-03-05 17:24:33][[32minfo[39m] mongo
+{
+  "collectionName": "users",
+  "method": "createIndex",
+  "query": { "username": "text", "name": "text", "email": "text", "phone": "text" }
+}
+[2022-03-05 17:24:33][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1, "userId": 1 } }
+[2022-03-05 17:24:33][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "code": 1 } }
+[2022-03-05 17:24:33][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": "text" } }
+[2022-03-05 17:24:33][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "name": "text", "code": "text" } }
+[2022-03-05 17:24:50][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "findOneAndUpdate", "query": { "_id": "622334cb14d3c0af01eb58c3" } }
+[2022-03-05 17:24:50][[32minfo[39m] GRAPHQL mutation($updateCategoryId:ID!$data:UpdateCategoryInput!){updateCategory(id:$updateCategoryId data:$data){id name priority productIds}} - 200 - 84.044 ms
+
+[2022-03-05 17:24:55][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "find", "query": {} }
+[2022-03-05 17:24:55][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "count", "query": {} }
+[2022-03-05 17:24:55][[32minfo[39m] ids
+{ "ids": [ "62232e3bd5354d4a8b462b63", "62232dedd5354d4a8b462b5d" ] }
+[2022-03-05 17:24:55][[32minfo[39m] mongo
+{
+  "collectionName": "products",
+  "method": "find",
+  "query": { "_id": { "$in": [ "62232e3bd5354d4a8b462b63", "62232dedd5354d4a8b462b5d" ] } }
+}
+[2022-03-05 17:24:55][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "findOne", "query": { "_id": "622334a53f2cf67b5770a7be" } }
+[2022-03-05 17:24:55][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "findOne", "query": { "_id": null } }
+[2022-03-05 17:24:55][[32minfo[39m] ids
+{ "ids": [ "62232e3bd5354d4a8b462b63" ] }
+[2022-03-05 17:24:55][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "find", "query": { "_id": { "$in": [ "62232e3bd5354d4a8b462b63" ] } } }
+[2022-03-05 17:24:55][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "findOne", "query": { "_id": "622334a53f2cf67b5770a7be" } }
+[2022-03-05 17:24:55][[32minfo[39m] GRAPHQL query{getAllCategory{data{id name products{id name category{id name products{id name category{id name}}}}}}} - 200 - 231.788 ms
+
+[2022-03-05 17:26:03][[32minfo[39m] Redis connected
+[2022-03-05 17:26:04][[32minfo[39m] Mongoose connected
+[2022-03-05 17:26:04][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-05 17:26:04][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "find", "query": {} }
+[2022-03-05 17:26:04][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "count", "query": {} }
+[2022-03-05 17:26:04][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-05 17:26:04][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-05 17:26:04][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-05 17:26:04][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-05 17:26:04][[32minfo[39m] ids
+{ "ids": [ "62232e3bd5354d4a8b462b63", "62232dedd5354d4a8b462b5d" ] }
+[2022-03-05 17:26:04][[32minfo[39m] mongo
+{
+  "collectionName": "products",
+  "method": "find",
+  "query": { "_id": { "$in": [ "62232e3bd5354d4a8b462b63", "62232dedd5354d4a8b462b5d" ] } }
+}
+[2022-03-05 17:26:04][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": 1 } }
+[2022-03-05 17:26:04][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1, "userId": 1 } }
+[2022-03-05 17:26:04][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "findOne", "query": { "_id": "622334a53f2cf67b5770a7be" } }
+[2022-03-05 17:26:04][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "findOne", "query": { "_id": null } }
+[2022-03-05 17:26:05][[32minfo[39m] mongo
+{
+  "collectionName": "users",
+  "method": "createIndex",
+  "query": { "username": "text", "name": "text", "email": "text", "phone": "text" }
+}
+[2022-03-05 17:26:05][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": "text" } }
+[2022-03-05 17:26:05][[32minfo[39m] ids
+{ "ids": [ "62232e3bd5354d4a8b462b63" ] }
+[2022-03-05 17:26:05][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "find", "query": { "_id": { "$in": [ "62232e3bd5354d4a8b462b63" ] } } }
+[2022-03-05 17:26:05][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "code": 1 } }
+[2022-03-05 17:26:05][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "findOne", "query": { "_id": "622334a53f2cf67b5770a7be" } }
+[2022-03-05 17:26:05][[32minfo[39m] GRAPHQL query{getAllCategory{data{id name products{id name category{id name products{id name category{id name}}}}}}} - 200 - 1078.943 ms
+
+[2022-03-05 17:26:05][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "name": "text", "code": "text" } }
+[2022-03-05 17:26:27][[32minfo[39m] Redis connected
+[2022-03-05 17:26:28][[32minfo[39m] Mongoose connected
+[2022-03-05 17:26:28][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-05 17:26:28][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-05 17:26:28][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-05 17:26:28][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-05 17:26:28][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-05 17:26:28][[32minfo[39m] mongo
+{
+  "collectionName": "users",
+  "method": "createIndex",
+  "query": { "username": "text", "name": "text", "email": "text", "phone": "text" }
+}
+[2022-03-05 17:26:28][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": 1 } }
+[2022-03-05 17:26:28][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "code": 1 } }
+[2022-03-05 17:26:28][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1, "userId": 1 } }
+[2022-03-05 17:26:28][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": "text" } }
+[2022-03-05 17:26:28][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "name": "text", "code": "text" } }
+[2022-03-05 17:26:39][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "find", "query": {} }
+[2022-03-05 17:26:39][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "count", "query": {} }
+[2022-03-05 17:26:39][[32minfo[39m] ids
+{ "ids": [ "62232e3bd5354d4a8b462b63", "62232dedd5354d4a8b462b5d" ] }
+[2022-03-05 17:26:39][[32minfo[39m] mongo
+{
+  "collectionName": "products",
+  "method": "find",
+  "query": { "_id": { "$in": [ "62232e3bd5354d4a8b462b63", "62232dedd5354d4a8b462b5d" ] } }
+}
+[2022-03-05 17:26:39][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "findOne", "query": { "_id": "622334a53f2cf67b5770a7be" } }
+[2022-03-05 17:26:39][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "findOne", "query": { "_id": null } }
+[2022-03-05 17:26:39][[32minfo[39m] ids
+{ "ids": [ "62232e3bd5354d4a8b462b63" ] }
+[2022-03-05 17:26:39][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "find", "query": { "_id": { "$in": [ "62232e3bd5354d4a8b462b63" ] } } }
+[2022-03-05 17:26:39][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "findOne", "query": { "_id": "622334a53f2cf67b5770a7be" } }
+[2022-03-05 17:26:39][[32minfo[39m] GRAPHQL query{getAllCategory{data{id name products{id name category{id name products{id name category{id name}}}}}}} - 200 - 345.926 ms
+
+[2022-03-05 17:28:02][[32minfo[39m] Redis connected
+[2022-03-05 17:28:03][[32minfo[39m] Mongoose connected
+[2022-03-05 17:28:03][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-05 17:28:03][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-05 17:28:03][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-05 17:28:03][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-05 17:28:03][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-05 17:28:03][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": 1 } }
+[2022-03-05 17:28:03][[32minfo[39m] mongo
+{
+  "collectionName": "users",
+  "method": "createIndex",
+  "query": { "username": "text", "name": "text", "email": "text", "phone": "text" }
+}
+[2022-03-05 17:28:03][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "code": 1 } }
+[2022-03-05 17:28:03][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1, "userId": 1 } }
+[2022-03-05 17:28:03][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": "text" } }
+[2022-03-05 17:28:04][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "name": "text", "code": "text" } }
+[2022-03-05 17:28:28][[32minfo[39m] Redis connected
+[2022-03-05 17:28:29][[32minfo[39m] Mongoose connected
+[2022-03-05 17:28:29][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-05 17:28:29][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-05 17:28:29][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-05 17:28:29][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-05 17:28:29][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-05 17:28:29][[32minfo[39m] mongo
+{
+  "collectionName": "users",
+  "method": "createIndex",
+  "query": { "username": "text", "name": "text", "email": "text", "phone": "text" }
+}
+[2022-03-05 17:28:29][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": 1 } }
+[2022-03-05 17:28:29][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1, "userId": 1 } }
+[2022-03-05 17:28:29][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "code": 1 } }
+[2022-03-05 17:28:29][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": "text" } }
+[2022-03-05 17:28:29][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "name": "text", "code": "text" } }
+[2022-03-05 17:28:37][[32minfo[39m] GRAPHQL mutation($updateCategoryId:ID!$data:UpdateCategoryInput!){updateCategory(id:$updateCategoryId data:$data){id name priority productIds}} - 200 - 20.185 ms
+
+[2022-03-05 17:28:41][[32minfo[39m] GRAPHQL mutation($updateCategoryId:ID!$data:UpdateCategoryInput!){updateCategory(id:$updateCategoryId data:$data){id name priority productIds}} - 200 - 1.491 ms
+
+[2022-03-05 17:29:57][[32minfo[39m] Redis connected
+[2022-03-05 17:29:58][[32minfo[39m] Mongoose connected
+[2022-03-05 17:29:58][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-05 17:29:58][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-05 17:29:59][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-05 17:29:59][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-05 17:29:59][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-05 17:29:59][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": 1 } }
+[2022-03-05 17:29:59][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "code": 1 } }
+[2022-03-05 17:29:59][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1, "userId": 1 } }
+[2022-03-05 17:29:59][[32minfo[39m] mongo
+{
+  "collectionName": "users",
+  "method": "createIndex",
+  "query": { "username": "text", "name": "text", "email": "text", "phone": "text" }
+}
+[2022-03-05 17:29:59][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "name": "text", "code": "text" } }
+[2022-03-05 17:29:59][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": "text" } }
+[2022-03-05 17:30:05][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "find", "query": {} }
+[2022-03-05 17:30:05][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "count", "query": {} }
+[2022-03-05 17:30:05][[32minfo[39m] ids
+{ "ids": [ "62232e3bd5354d4a8b462b63", "62232dedd5354d4a8b462b5d" ] }
+[2022-03-05 17:30:05][[32minfo[39m] mongo
+{
+  "collectionName": "products",
+  "method": "find",
+  "query": { "_id": { "$in": [ "62232e3bd5354d4a8b462b63", "62232dedd5354d4a8b462b5d" ] } }
+}
+[2022-03-05 17:30:05][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "findOne", "query": { "_id": "622334a53f2cf67b5770a7be" } }
+[2022-03-05 17:30:05][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "findOne", "query": { "_id": null } }
+[2022-03-05 17:30:05][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "findOne", "query": { "_id": "622334a53f2cf67b5770a7be" } }
+[2022-03-05 17:30:05][[32minfo[39m] GRAPHQL query{getAllCategory{data{id name products{id name category{id name products{id name category{id name}}}}}}} - 200 - 229.030 ms
+
+[2022-03-05 17:30:14][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "findOneAndUpdate", "query": { "_id": "622334cb14d3c0af01eb58c3" } }
+[2022-03-05 17:30:14][[32minfo[39m] GRAPHQL mutation($updateCategoryId:ID!$data:UpdateCategoryInput!){updateCategory(id:$updateCategoryId data:$data){id name priority productIds}} - 200 - 69.072 ms
+
+[2022-03-05 17:30:22][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "find", "query": {} }
+[2022-03-05 17:30:22][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "count", "query": {} }
+[2022-03-05 17:30:22][[32minfo[39m] ids
+{ "ids": [ "622327b363f8710db675cda8" ] }
+[2022-03-05 17:30:22][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "find", "query": { "_id": { "$in": [ "622327b363f8710db675cda8" ] } } }
+[2022-03-05 17:30:22][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "findOne", "query": { "_id": "622334a53f2cf67b5770a7be" } }
+[2022-03-05 17:30:22][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "findOne", "query": { "_id": null } }
+[2022-03-05 17:30:22][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "findOne", "query": { "_id": null } }
+[2022-03-05 17:30:22][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "findOne", "query": { "_id": "622334a53f2cf67b5770a7be" } }
+[2022-03-05 17:30:22][[32minfo[39m] GRAPHQL query{getAllCategory{data{id name products{id name category{id name products{id name category{id name}}}}}}} - 200 - 178.408 ms
+
+[2022-03-05 17:33:29][[32minfo[39m] Redis connected
+[2022-03-05 17:33:30][[32minfo[39m] Mongoose connected
+[2022-03-05 17:33:30][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-05 17:33:30][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-05 17:33:30][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-05 17:33:30][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-05 17:33:30][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-05 17:33:31][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "code": 1 } }
+[2022-03-05 17:33:31][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1, "userId": 1 } }
+[2022-03-05 17:33:31][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": 1 } }
+[2022-03-05 17:33:31][[32minfo[39m] mongo
+{
+  "collectionName": "users",
+  "method": "createIndex",
+  "query": { "username": "text", "name": "text", "email": "text", "phone": "text" }
+}
+[2022-03-05 17:33:31][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "name": "text", "code": "text" } }
+[2022-03-05 17:33:31][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": "text" } }
+[2022-03-05 17:34:00][[32minfo[39m] Redis connected
+[2022-03-05 17:34:01][[32minfo[39m] Mongoose connected
+[2022-03-05 17:34:01][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-05 17:34:01][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-05 17:34:01][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-05 17:34:01][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-05 17:34:01][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-05 17:34:01][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": 1 } }
+[2022-03-05 17:34:01][[32minfo[39m] mongo
+{
+  "collectionName": "users",
+  "method": "createIndex",
+  "query": { "username": "text", "name": "text", "email": "text", "phone": "text" }
+}
+[2022-03-05 17:34:01][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "code": 1 } }
+[2022-03-05 17:34:01][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1, "userId": 1 } }
+[2022-03-05 17:34:01][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": "text" } }
+[2022-03-05 17:34:01][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "name": "text", "code": "text" } }
+[2022-03-05 17:34:15][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "find", "query": {} }
+[2022-03-05 17:34:15][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "count", "query": {} }
+[2022-03-05 17:34:15][[32minfo[39m] ids
+{ "ids": [ "62232e3bd5354d4a8b462b63", "62232dedd5354d4a8b462b5d", "622327b363f8710db675cda8" ] }
+[2022-03-05 17:34:15][[32minfo[39m] mongo
+{
+  "collectionName": "products",
+  "method": "find",
+  "query": { "_id": { "$in": [ "62232e3bd5354d4a8b462b63", "62232dedd5354d4a8b462b5d", "622327b363f8710db675cda8" ] } }
+}
+[2022-03-05 17:34:15][[32minfo[39m] category ids
+{ "ids": [ "622334a53f2cf67b5770a7be" ] }
+[2022-03-05 17:34:15][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "find", "query": { "_id": { "$in": [ "622334a53f2cf67b5770a7be" ] } } }
+[2022-03-05 17:34:15][[32minfo[39m] GRAPHQL query{getAllCategory{data{id name products{id name category{id name products{id name category{id name}}}}}}} - 200 - 186.735 ms
+
+[2022-03-05 17:35:03][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "find", "query": {} }
+[2022-03-05 17:35:03][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "count", "query": {} }
+[2022-03-05 17:35:03][[32minfo[39m] GRAPHQL query{getAllCategory{data{id name products{id name category{id name products{id name category{id name products{id name category{id name products{id name category{id name}}}}}}}}}}} - 200 - 60.551 ms
+
+[2022-03-05 17:35:08][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "find", "query": {} }
+[2022-03-05 17:35:08][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "count", "query": {} }
+[2022-03-05 17:35:08][[32minfo[39m] GRAPHQL query{getAllCategory{data{id name products{id name category{id name products{id name category{id name products{id name category{id name products{id name category{id name}}}}}}}}}}} - 200 - 57.717 ms
+
+[2022-03-05 17:36:38][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "findOneAndUpdate", "query": { "_id": "622334cb14d3c0af01eb58c3" } }
+[2022-03-05 17:36:39][[32minfo[39m] GRAPHQL mutation($updateCategoryId:ID!$data:UpdateCategoryInput!){updateCategory(id:$updateCategoryId data:$data){id name priority productIds}} - 200 - 113.569 ms
+
+[2022-03-05 17:36:43][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "find", "query": {} }
+[2022-03-05 17:36:43][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "count", "query": {} }
+[2022-03-05 17:36:43][[32minfo[39m] GRAPHQL query{getAllCategory{data{id name products{id name category{id name products{id name category{id name products{id name category{id name products{id name category{id name}}}}}}}}}}} - 200 - 50.027 ms
+
+[2022-03-05 17:37:03][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "findOneAndUpdate", "query": { "_id": "622334cb14d3c0af01eb58c3" } }
+[2022-03-05 17:37:03][[32minfo[39m] GRAPHQL mutation($updateCategoryId:ID!$data:UpdateCategoryInput!){updateCategory(id:$updateCategoryId data:$data){id name priority productIds}} - 200 - 56.938 ms
+
+[2022-03-05 17:37:08][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "find", "query": {} }
+[2022-03-05 17:37:08][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "count", "query": {} }
+[2022-03-05 17:37:08][[32minfo[39m] GRAPHQL query{getAllCategory{data{id name products{id name category{id name products{id name category{id name products{id name category{id name products{id name category{id name}}}}}}}}}}} - 200 - 47.166 ms
+

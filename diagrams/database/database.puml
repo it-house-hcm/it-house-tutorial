@@ -3,13 +3,13 @@
 package Product {
     map Product {
         name => String
-        price => Double
         description => String
         images => List<String>
+        basePrice => Double
         sellPrice => Double
         actived => Boolean
         categoryId => String
-        attr => List<Attribute>
+        attrs => List<Attribute>
         view => Int
     }
     map Category {
@@ -37,6 +37,17 @@ package Product {
         productId => String
         userId => String
     }
+
+    map ProductComment {
+        productId => String
+        userId => String
+        content => String
+        createdAt => DateTime
+        replyToCommentId => String
+    }
+
+    Product --{ ProductComment
+    ProductComment --{ ProductComment
 }
 
 package User {

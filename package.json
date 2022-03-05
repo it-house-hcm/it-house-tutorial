@@ -11,7 +11,8 @@
     "clear": "rimraf dist",
     "start": "node dist/index.js",
     "ts": "ts-node",
-    "hygen:entity": "hygen generate entity"
+    "hygen:entity": "hygen generate entity",
+    "hygen:graphql": "hygen generate graphql"
   },
   "keywords": [],
   "author": "diepmyduong@outlook.com.vn",
@@ -41,6 +42,7 @@
     "body-parser": "^1.19.1",
     "config": "^3.3.7",
     "cors": "^2.8.5",
+    "dataloader": "^2.0.0",
     "dotenv": "^16.0.0",
     "express": "^4.17.2",
     "firebase-admin": "^10.0.2",
@@ -55,6 +57,7 @@
     "moment": "^2.29.1",
     "mongoose": "^6.2.1",
     "morgan": "^1.10.0",
+    "nanoid": "^3.3.1",
     "password-hash": "^1.2.2",
     "redis": "^4.0.3",
     "winston": "^3.6.0"
