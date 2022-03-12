@@ -3,6 +3,9 @@ import { Category, CategoryModel } from "./category.model";
 import { categoryService } from "./category.service";
 import _ from "lodash";
 import { ProductLoader, ProductModel } from "../product.model";
+import { BaseDocument } from "../../../base/baseModel";
+import DataLoader from "dataloader";
+import { GraphqlResolver } from "../../../helpers/graphql/resolver";
 
 export default {
   Query: {
@@ -38,12 +41,6 @@ export default {
     },
   },
   Category: {
-    products: async (root: Category, args: any, context: any) => {
-      const { productIds } = root;
-      if (!productIds) return [];
-      return await ProductLoader.loadMany(
-        productIds.map((id) => id.toString())
-      );
-    },
+    products: GraphqlResolver.loadMany(ProductLoader, "productIds"),
   },
 };

@@ -661,3 +661,1538 @@ Error: connect ECONNREFUSED 127.0.0.1:6379
 { "collectionName": "categories", "method": "count", "query": {} }
 [2022-03-05 17:37:08][[32minfo[39m] GRAPHQL query{getAllCategory{data{id name products{id name category{id name products{id name category{id name products{id name category{id name products{id name category{id name}}}}}}}}}}} - 200 - 47.166 ms
 
+[2022-03-12 15:20:35][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:20:36][[32minfo[39m] Mongoose connected
+[2022-03-12 15:20:36][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-12 15:20:37][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-12 15:20:37][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-12 15:20:37][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-12 15:20:37][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-12 15:20:37][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "code": 1 } }
+[2022-03-12 15:20:37][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1, "userId": 1 } }
+[2022-03-12 15:20:37][[32minfo[39m] mongo
+{
+  "collectionName": "users",
+  "method": "createIndex",
+  "query": { "username": "text", "name": "text", "email": "text", "phone": "text" }
+}
+[2022-03-12 15:20:37][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": 1 } }
+[2022-03-12 15:20:37][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "name": "text", "code": "text" } }
+[2022-03-12 15:20:37][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": "text" } }
+[2022-03-12 15:20:38][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "find", "query": {} }
+[2022-03-12 15:20:38][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "count", "query": {} }
+[2022-03-12 15:20:38][[32minfo[39m] mongo
+{
+  "collectionName": "products",
+  "method": "find",
+  "query": { "_id": { "$in": [ "62232e3bd5354d4a8b462b63", "62232dedd5354d4a8b462b5d", "622327b363f8710db675cda8" ] } }
+}
+[2022-03-12 15:20:38][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "find", "query": { "_id": { "$in": [ "622334a53f2cf67b5770a7be" ] } } }
+[2022-03-12 15:20:38][[32minfo[39m] GRAPHQL query{getAllCategory{data{id name products{id name category{id name products{id name category{id name products{id name category{id name products{id name category{id name}}}}}}}}}}} - 200 - 248.821 ms
+
+[2022-03-12 15:20:39][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "find", "query": {} }
+[2022-03-12 15:20:39][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "count", "query": {} }
+[2022-03-12 15:20:39][[32minfo[39m] GRAPHQL query{getAllCategory{data{id name products{id name category{id name products{id name category{id name products{id name category{id name products{id name category{id name}}}}}}}}}}} - 200 - 48.722 ms
+
+[2022-03-12 15:22:01][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "find", "query": {} }
+[2022-03-12 15:22:01][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "count", "query": {} }
+[2022-03-12 15:22:01][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "count", "query": { "productId": "622327b363f8710db675cda8" } }
+[2022-03-12 15:22:01][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "count", "query": { "productId": "622327cb63f8710db675cdaa" } }
+[2022-03-12 15:22:01][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "count", "query": { "productId": "62232dedd5354d4a8b462b5d" } }
+[2022-03-12 15:22:01][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "count", "query": { "productId": "62232e3bd5354d4a8b462b63" } }
+[2022-03-12 15:22:01][[32minfo[39m] GRAPHQL query{getAllProduct(q:{page:1 limit:10}){pagination{total}data{id name like}}} - 200 - 111.394 ms
+
+[2022-03-12 15:24:42][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:24:43][[32minfo[39m] Mongoose connected
+[2022-03-12 15:24:43][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-12 15:24:43][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-12 15:24:43][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-12 15:24:43][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-12 15:24:43][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-12 15:24:44][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1, "userId": 1 } }
+[2022-03-12 15:24:44][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "code": 1 } }
+[2022-03-12 15:24:44][[32minfo[39m] mongo
+{
+  "collectionName": "users",
+  "method": "createIndex",
+  "query": { "username": "text", "name": "text", "email": "text", "phone": "text" }
+}
+[2022-03-12 15:24:44][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": 1 } }
+[2022-03-12 15:24:44][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "name": "text", "code": "text" } }
+[2022-03-12 15:24:44][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": "text" } }
+[2022-03-12 15:25:48][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:25:49][[32minfo[39m] Mongoose connected
+[2022-03-12 15:25:49][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-12 15:25:49][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-12 15:25:49][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-12 15:25:50][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-12 15:25:50][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-12 15:25:50][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "code": 1 } }
+[2022-03-12 15:25:50][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1, "userId": 1 } }
+[2022-03-12 15:25:50][[32minfo[39m] mongo
+{
+  "collectionName": "users",
+  "method": "createIndex",
+  "query": { "username": "text", "name": "text", "email": "text", "phone": "text" }
+}
+[2022-03-12 15:25:50][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": 1 } }
+[2022-03-12 15:25:50][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "name": "text", "code": "text" } }
+[2022-03-12 15:25:50][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": "text" } }
+[2022-03-12 15:26:19][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:26:20][[32minfo[39m] Mongoose connected
+[2022-03-12 15:26:20][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-12 15:26:20][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-12 15:26:20][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-12 15:26:20][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-12 15:26:20][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-12 15:26:21][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": 1 } }
+[2022-03-12 15:26:21][[32minfo[39m] mongo
+{
+  "collectionName": "users",
+  "method": "createIndex",
+  "query": { "username": "text", "name": "text", "email": "text", "phone": "text" }
+}
+[2022-03-12 15:26:21][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1, "userId": 1 } }
+[2022-03-12 15:26:21][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "code": 1 } }
+[2022-03-12 15:26:21][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": "text" } }
+[2022-03-12 15:26:21][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "name": "text", "code": "text" } }
+[2022-03-12 15:26:34][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:26:35][[32minfo[39m] Mongoose connected
+[2022-03-12 15:26:35][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-12 15:26:35][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-12 15:26:36][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-12 15:26:36][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-12 15:26:36][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-12 15:26:36][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "code": 1 } }
+[2022-03-12 15:26:36][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": 1 } }
+[2022-03-12 15:26:36][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1, "userId": 1 } }
+[2022-03-12 15:26:36][[32minfo[39m] mongo
+{
+  "collectionName": "users",
+  "method": "createIndex",
+  "query": { "username": "text", "name": "text", "email": "text", "phone": "text" }
+}
+[2022-03-12 15:26:36][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "name": "text", "code": "text" } }
+[2022-03-12 15:26:36][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": "text" } }
+[2022-03-12 15:27:05][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:27:06][[32minfo[39m] Mongoose connected
+[2022-03-12 15:27:06][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-12 15:27:06][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-12 15:27:07][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-12 15:27:07][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-12 15:27:07][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-12 15:27:07][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1, "userId": 1 } }
+[2022-03-12 15:27:07][[32minfo[39m] mongo
+{
+  "collectionName": "users",
+  "method": "createIndex",
+  "query": { "username": "text", "name": "text", "email": "text", "phone": "text" }
+}
+[2022-03-12 15:27:07][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": 1 } }
+[2022-03-12 15:27:07][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "code": 1 } }
+[2022-03-12 15:27:07][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": "text" } }
+[2022-03-12 15:27:07][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "name": "text", "code": "text" } }
+[2022-03-12 15:27:12][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "find", "query": {} }
+[2022-03-12 15:27:12][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "count", "query": {} }
+[2022-03-12 15:27:12][[32minfo[39m] mongo
+{
+  "collectionName": "productlikes",
+  "method": "aggregate",
+  "query": [
+    {
+      "$match": {
+        "productId": {
+          "$in": [
+            "622327b363f8710db675cda8",
+            "622327cb63f8710db675cdaa",
+            "62232dedd5354d4a8b462b5d",
+            "62232e3bd5354d4a8b462b63"
+          ]
+        }
+      }
+    },
+    { "$group": { "_id": "$productId", "count": { "$sum": 1 } } }
+  ]
+}
+[2022-03-12 15:27:12][[32minfo[39m] GRAPHQL query{getAllProduct(q:{page:1 limit:10}){pagination{total}data{id name like}}} - 200 - 146.916 ms
+
+[2022-03-12 15:27:51][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:27:52][[32minfo[39m] Mongoose connected
+[2022-03-12 15:27:52][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-12 15:27:52][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-12 15:27:53][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-12 15:27:53][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-12 15:27:53][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-12 15:27:53][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": 1 } }
+[2022-03-12 15:27:53][[32minfo[39m] mongo
+{
+  "collectionName": "users",
+  "method": "createIndex",
+  "query": { "username": "text", "name": "text", "email": "text", "phone": "text" }
+}
+[2022-03-12 15:27:53][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1, "userId": 1 } }
+[2022-03-12 15:27:53][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "code": 1 } }
+[2022-03-12 15:27:53][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": "text" } }
+[2022-03-12 15:27:53][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "name": "text", "code": "text" } }
+[2022-03-12 15:27:57][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "find", "query": {} }
+[2022-03-12 15:27:57][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "count", "query": {} }
+[2022-03-12 15:27:57][[32minfo[39m] mongo
+{
+  "collectionName": "productlikes",
+  "method": "aggregate",
+  "query": [
+    {
+      "$match": {
+        "productId": {
+          "$in": [
+            "622327b363f8710db675cda8",
+            "622327cb63f8710db675cdaa",
+            "62232dedd5354d4a8b462b5d",
+            "62232e3bd5354d4a8b462b63"
+          ]
+        }
+      }
+    },
+    { "$group": { "_id": "$productId", "count": { "$sum": 1 } } }
+  ]
+}
+[2022-03-12 15:27:57][[32minfo[39m] GRAPHQL query{getAllProduct(q:{page:1 limit:10}){pagination{total}data{id name like}}} - 200 - 136.306 ms
+
+[2022-03-12 15:28:04][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "find", "query": {} }
+[2022-03-12 15:28:04][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "count", "query": {} }
+[2022-03-12 15:28:04][[32minfo[39m] GRAPHQL query{getAllProduct(q:{page:1 limit:10}){pagination{total}data{id name like}}} - 200 - 77.828 ms
+
+[2022-03-12 15:28:23][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:28:24][[32minfo[39m] Mongoose connected
+[2022-03-12 15:28:24][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-12 15:28:24][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-12 15:28:24][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-12 15:28:24][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-12 15:28:24][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-12 15:28:25][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "code": 1 } }
+[2022-03-12 15:28:25][[32minfo[39m] mongo
+{
+  "collectionName": "users",
+  "method": "createIndex",
+  "query": { "username": "text", "name": "text", "email": "text", "phone": "text" }
+}
+[2022-03-12 15:28:25][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": 1 } }
+[2022-03-12 15:28:25][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1, "userId": 1 } }
+[2022-03-12 15:28:25][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "name": "text", "code": "text" } }
+[2022-03-12 15:28:25][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": "text" } }
+[2022-03-12 15:28:40][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:28:41][[32minfo[39m] Mongoose connected
+[2022-03-12 15:28:41][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-12 15:28:41][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-12 15:28:42][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-12 15:28:42][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-12 15:28:42][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-12 15:28:42][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "code": 1 } }
+[2022-03-12 15:28:42][[32minfo[39m] mongo
+{
+  "collectionName": "users",
+  "method": "createIndex",
+  "query": { "username": "text", "name": "text", "email": "text", "phone": "text" }
+}
+[2022-03-12 15:28:42][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": 1 } }
+[2022-03-12 15:28:42][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1, "userId": 1 } }
+[2022-03-12 15:28:42][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "name": "text", "code": "text" } }
+[2022-03-12 15:28:42][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": "text" } }
+[2022-03-12 15:28:46][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "find", "query": {} }
+[2022-03-12 15:28:46][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "count", "query": {} }
+[2022-03-12 15:28:46][[32minfo[39m] mongo
+{
+  "collectionName": "productlikes",
+  "method": "aggregate",
+  "query": [
+    {
+      "$match": {
+        "productId": {
+          "$in": [
+            "622327b363f8710db675cda8",
+            "622327cb63f8710db675cdaa",
+            "62232dedd5354d4a8b462b5d",
+            "62232e3bd5354d4a8b462b63"
+          ]
+        }
+      }
+    },
+    { "$group": { "_id": "$productId", "count": { "$sum": 1 } } }
+  ]
+}
+[2022-03-12 15:28:46][[32minfo[39m] GRAPHQL query{getAllProduct(q:{page:1 limit:10}){pagination{total}data{id name like}}} - 200 - 166.709 ms
+
+[2022-03-12 15:28:53][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "find", "query": {} }
+[2022-03-12 15:28:53][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "count", "query": {} }
+[2022-03-12 15:28:53][[32minfo[39m] GRAPHQL query{getAllProduct(q:{page:1 limit:10}){pagination{total}data{id name like}}} - 200 - 60.899 ms
+
+[2022-03-12 15:29:06][[32minfo[39m] mongo
+{
+  "collectionName": "productlikes",
+  "method": "findOneAndUpdate",
+  "query": { "productId": "622327b363f8710db675cda8", "userId": "6219f12f14b815e492bb5473" }
+}
+[2022-03-12 15:29:06][[32minfo[39m] GRAPHQL mutation{likeProduct(productId:"622327b363f8710db675cda8")} - 200 - 89.160 ms
+
+[2022-03-12 15:29:18][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "find", "query": {} }
+[2022-03-12 15:29:18][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "count", "query": {} }
+[2022-03-12 15:29:18][[32minfo[39m] mongo
+{
+  "collectionName": "productlikes",
+  "method": "aggregate",
+  "query": [
+    { "$match": { "productId": { "$in": [ "622327b363f8710db675cda8" ] } } },
+    { "$group": { "_id": "$productId", "count": { "$sum": 1 } } }
+  ]
+}
+[2022-03-12 15:29:18][[32minfo[39m] GRAPHQL query{getAllProduct(q:{page:1 limit:10}){pagination{total}data{id name like}}} - 200 - 100.436 ms
+
+[2022-03-12 15:32:00][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:32:01][[32minfo[39m] Mongoose connected
+[2022-03-12 15:32:01][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-12 15:32:01][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-12 15:32:01][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-12 15:32:01][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-12 15:32:01][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-12 15:32:02][[32minfo[39m] mongo
+{
+  "collectionName": "users",
+  "method": "createIndex",
+  "query": { "username": "text", "name": "text", "email": "text", "phone": "text" }
+}
+[2022-03-12 15:32:02][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "code": 1 } }
+[2022-03-12 15:32:02][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": 1 } }
+[2022-03-12 15:32:02][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1, "userId": 1 } }
+[2022-03-12 15:32:02][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "name": "text", "code": "text" } }
+[2022-03-12 15:32:02][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": "text" } }
+[2022-03-12 15:32:25][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:32:25][[32minfo[39m] Mongoose connected
+[2022-03-12 15:32:25][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-12 15:32:25][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-12 15:32:26][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-12 15:32:26][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-12 15:32:26][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-12 15:32:26][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "code": 1 } }
+[2022-03-12 15:32:26][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": 1 } }
+[2022-03-12 15:32:26][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1, "userId": 1 } }
+[2022-03-12 15:32:26][[32minfo[39m] mongo
+{
+  "collectionName": "users",
+  "method": "createIndex",
+  "query": { "username": "text", "name": "text", "email": "text", "phone": "text" }
+}
+[2022-03-12 15:32:26][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "name": "text", "code": "text" } }
+[2022-03-12 15:32:26][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": "text" } }
+[2022-03-12 15:32:57][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:32:57][[32minfo[39m] Mongoose connected
+[2022-03-12 15:32:57][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-12 15:32:57][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-12 15:32:58][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-12 15:32:58][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-12 15:32:58][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-12 15:32:58][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1, "userId": 1 } }
+[2022-03-12 15:32:58][[32minfo[39m] mongo
+{
+  "collectionName": "users",
+  "method": "createIndex",
+  "query": { "username": "text", "name": "text", "email": "text", "phone": "text" }
+}
+[2022-03-12 15:32:58][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "code": 1 } }
+[2022-03-12 15:32:58][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": 1 } }
+[2022-03-12 15:32:58][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": "text" } }
+[2022-03-12 15:32:58][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "name": "text", "code": "text" } }
+[2022-03-12 15:33:52][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:33:53][[32minfo[39m] Mongoose connected
+[2022-03-12 15:33:53][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-12 15:33:53][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-12 15:33:54][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-12 15:33:54][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-12 15:33:54][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-12 15:33:54][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1, "userId": 1 } }
+[2022-03-12 15:33:54][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "code": 1 } }
+[2022-03-12 15:33:54][[32minfo[39m] mongo
+{
+  "collectionName": "users",
+  "method": "createIndex",
+  "query": { "username": "text", "name": "text", "email": "text", "phone": "text" }
+}
+[2022-03-12 15:33:54][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": 1 } }
+[2022-03-12 15:33:54][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "name": "text", "code": "text" } }
+[2022-03-12 15:33:54][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": "text" } }
+[2022-03-12 15:34:37][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:34:38][[32minfo[39m] Mongoose connected
+[2022-03-12 15:34:38][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-12 15:34:38][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-12 15:34:38][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-12 15:34:38][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-12 15:34:38][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-12 15:34:38][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": 1 } }
+[2022-03-12 15:34:38][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "code": 1 } }
+[2022-03-12 15:34:38][[32minfo[39m] mongo
+{
+  "collectionName": "users",
+  "method": "createIndex",
+  "query": { "username": "text", "name": "text", "email": "text", "phone": "text" }
+}
+[2022-03-12 15:34:38][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1, "userId": 1 } }
+[2022-03-12 15:34:38][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": "text" } }
+[2022-03-12 15:34:38][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "name": "text", "code": "text" } }
+[2022-03-12 15:34:55][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:34:56][[32minfo[39m] Mongoose connected
+[2022-03-12 15:34:56][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-12 15:34:57][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-12 15:34:57][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-12 15:34:57][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-12 15:34:57][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-12 15:34:57][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": 1 } }
+[2022-03-12 15:34:57][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1, "userId": 1 } }
+[2022-03-12 15:34:57][[32minfo[39m] mongo
+{
+  "collectionName": "users",
+  "method": "createIndex",
+  "query": { "username": "text", "name": "text", "email": "text", "phone": "text" }
+}
+[2022-03-12 15:34:57][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "code": 1 } }
+[2022-03-12 15:34:57][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": "text" } }
+[2022-03-12 15:34:57][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "name": "text", "code": "text" } }
+[2022-03-12 15:35:03][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "find", "query": {} }
+[2022-03-12 15:35:03][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "count", "query": {} }
+[2022-03-12 15:35:03][[32minfo[39m] mongo
+{
+  "collectionName": "productlikes",
+  "method": "aggregate",
+  "query": [
+    {
+      "$match": {
+        "productId": {
+          "$in": [
+            "622327b363f8710db675cda8",
+            "622327cb63f8710db675cdaa",
+            "62232dedd5354d4a8b462b5d",
+            "62232e3bd5354d4a8b462b63"
+          ]
+        },
+        "userId": {
+          "$in": [
+            "6219f12f14b815e492bb5473",
+            "6219f12f14b815e492bb5473",
+            "6219f12f14b815e492bb5473",
+            "6219f12f14b815e492bb5473"
+          ]
+        }
+      }
+    },
+    { "$group": { "_id": { "productId": "$productId", "userId": "$userId" } } }
+  ]
+}
+[2022-03-12 15:35:03][[32minfo[39m] GRAPHQL query{getAllProduct(q:{page:1 limit:10}){pagination{total}data{id name isLike}}} - 200 - 139.836 ms
+
+[2022-03-12 15:35:33][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:35:34][[32minfo[39m] Mongoose connected
+[2022-03-12 15:35:34][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-12 15:35:34][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-12 15:35:34][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-12 15:35:34][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-12 15:35:34][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-12 15:35:45][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:35:46][[32minfo[39m] Mongoose connected
+[2022-03-12 15:35:46][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-12 15:35:46][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-12 15:35:46][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-12 15:35:46][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-12 15:35:46][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-12 15:35:46][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": 1 } }
+[2022-03-12 15:35:46][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "code": 1 } }
+[2022-03-12 15:35:46][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1, "userId": 1 } }
+[2022-03-12 15:35:46][[32minfo[39m] mongo
+{
+  "collectionName": "users",
+  "method": "createIndex",
+  "query": { "username": "text", "name": "text", "email": "text", "phone": "text" }
+}
+[2022-03-12 15:35:46][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": "text" } }
+[2022-03-12 15:35:46][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "name": "text", "code": "text" } }
+[2022-03-12 15:35:47][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "find", "query": {} }
+[2022-03-12 15:35:47][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "count", "query": {} }
+[2022-03-12 15:35:47][[32minfo[39m] mongo
+{
+  "collectionName": "productlikes",
+  "method": "aggregate",
+  "query": [
+    {
+      "$match": {
+        "productId": {
+          "$in": [
+            "622327b363f8710db675cda8",
+            "622327cb63f8710db675cdaa",
+            "62232dedd5354d4a8b462b5d",
+            "62232e3bd5354d4a8b462b63"
+          ]
+        },
+        "userId": {
+          "$in": [
+            "6219f12f14b815e492bb5473",
+            "6219f12f14b815e492bb5473",
+            "6219f12f14b815e492bb5473",
+            "6219f12f14b815e492bb5473"
+          ]
+        }
+      }
+    },
+    { "$group": { "_id": { "productId": "$productId", "userId": "$userId" } } }
+  ]
+}
+[2022-03-12 15:35:47][[32minfo[39m] GRAPHQL query{getAllProduct(q:{page:1 limit:10}){pagination{total}data{id name isLike}}} - 200 - 126.923 ms
+
+[2022-03-12 15:36:15][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:36:15][[32minfo[39m] Mongoose connected
+[2022-03-12 15:36:15][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-12 15:36:16][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-12 15:36:16][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-12 15:36:16][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-12 15:36:16][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-12 15:36:16][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": 1 } }
+[2022-03-12 15:36:16][[32minfo[39m] mongo
+{
+  "collectionName": "users",
+  "method": "createIndex",
+  "query": { "username": "text", "name": "text", "email": "text", "phone": "text" }
+}
+[2022-03-12 15:36:16][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1, "userId": 1 } }
+[2022-03-12 15:36:16][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "code": 1 } }
+[2022-03-12 15:36:16][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": "text" } }
+[2022-03-12 15:36:16][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "name": "text", "code": "text" } }
+[2022-03-12 15:36:18][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "find", "query": {} }
+[2022-03-12 15:36:18][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "count", "query": {} }
+[2022-03-12 15:36:18][[32minfo[39m] mongo
+{
+  "collectionName": "productlikes",
+  "method": "aggregate",
+  "query": [
+    {
+      "$match": {
+        "productId": {
+          "$in": [
+            "622327b363f8710db675cda8",
+            "622327cb63f8710db675cdaa",
+            "62232dedd5354d4a8b462b5d",
+            "62232e3bd5354d4a8b462b63"
+          ]
+        },
+        "userId": {
+          "$in": [
+            "6219f12f14b815e492bb5473",
+            "6219f12f14b815e492bb5473",
+            "6219f12f14b815e492bb5473",
+            "6219f12f14b815e492bb5473"
+          ]
+        }
+      }
+    },
+    { "$group": { "_id": { "productId": "$productId", "userId": "$userId" } } }
+  ]
+}
+[2022-03-12 15:36:18][[32minfo[39m] GRAPHQL query{getAllProduct(q:{page:1 limit:10}){pagination{total}data{id name isLike}}} - 200 - 138.166 ms
+
+[2022-03-12 15:36:27][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "find", "query": {} }
+[2022-03-12 15:36:27][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "count", "query": {} }
+[2022-03-12 15:36:27][[32minfo[39m] GRAPHQL query{getAllProduct(q:{page:1 limit:10}){pagination{total}data{id name isLike}}} - 200 - 152.731 ms
+
+[2022-03-12 15:36:58][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:36:59][[32minfo[39m] Mongoose connected
+[2022-03-12 15:36:59][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-12 15:36:59][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-12 15:36:59][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-12 15:37:00][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-12 15:37:00][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-12 15:37:00][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": 1 } }
+[2022-03-12 15:37:00][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "code": 1 } }
+[2022-03-12 15:37:00][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1, "userId": 1 } }
+[2022-03-12 15:37:00][[32minfo[39m] mongo
+{
+  "collectionName": "users",
+  "method": "createIndex",
+  "query": { "username": "text", "name": "text", "email": "text", "phone": "text" }
+}
+[2022-03-12 15:37:00][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": "text" } }
+[2022-03-12 15:37:00][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "name": "text", "code": "text" } }
+[2022-03-12 15:37:05][[32minfo[39m] mongo
+{
+  "collectionName": "productlikes",
+  "method": "findOneAndUpdate",
+  "query": { "productId": "622327cb63f8710db675cdaa", "userId": "6219f12f14b815e492bb5473" }
+}
+[2022-03-12 15:37:05][[32minfo[39m] GRAPHQL mutation{likeProduct(productId:"622327cb63f8710db675cdaa")} - 200 - 90.770 ms
+
+[2022-03-12 15:37:07][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "find", "query": {} }
+[2022-03-12 15:37:07][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "count", "query": {} }
+[2022-03-12 15:37:07][[32minfo[39m] mongo
+{
+  "collectionName": "productlikes",
+  "method": "aggregate",
+  "query": [
+    {
+      "$match": {
+        "productId": {
+          "$in": [
+            "622327b363f8710db675cda8",
+            "622327cb63f8710db675cdaa",
+            "62232dedd5354d4a8b462b5d",
+            "62232e3bd5354d4a8b462b63"
+          ]
+        },
+        "userId": {
+          "$in": [
+            "6219f12f14b815e492bb5473",
+            "6219f12f14b815e492bb5473",
+            "6219f12f14b815e492bb5473",
+            "6219f12f14b815e492bb5473"
+          ]
+        }
+      }
+    },
+    { "$group": { "_id": { "productId": "$productId", "userId": "$userId" } } }
+  ]
+}
+[2022-03-12 15:37:07][[32minfo[39m] GRAPHQL query{getAllProduct(q:{page:1 limit:10}){pagination{total}data{id name isLike}}} - 200 - 101.756 ms
+
+[2022-03-12 15:39:08][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "find", "query": {} }
+[2022-03-12 15:39:08][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "count", "query": {} }
+[2022-03-12 15:39:08][[32minfo[39m] GRAPHQL query{getAllProduct(q:{page:1 limit:10}){pagination{total}data{id name isLike}}} - 200 - 58.278 ms
+
+[2022-03-12 15:39:10][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "find", "query": {} }
+[2022-03-12 15:39:10][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "count", "query": {} }
+[2022-03-12 15:39:10][[32minfo[39m] GRAPHQL query{getAllProduct(q:{page:1 limit:10}){pagination{total}data{id name isLike}}} - 200 - 51.668 ms
+
+[2022-03-12 15:40:46][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:40:47][[32minfo[39m] Mongoose connected
+[2022-03-12 15:40:47][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-12 15:40:47][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-12 15:40:47][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-12 15:40:47][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-12 15:40:47][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-12 15:40:47][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "code": 1 } }
+[2022-03-12 15:40:47][[32minfo[39m] mongo
+{
+  "collectionName": "users",
+  "method": "createIndex",
+  "query": { "username": "text", "name": "text", "email": "text", "phone": "text" }
+}
+[2022-03-12 15:40:47][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1, "userId": 1 } }
+[2022-03-12 15:40:47][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": 1 } }
+[2022-03-12 15:40:47][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "name": "text", "code": "text" } }
+[2022-03-12 15:40:47][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": "text" } }
+[2022-03-12 15:41:27][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:41:28][[32minfo[39m] Mongoose connected
+[2022-03-12 15:41:28][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-12 15:41:28][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-12 15:41:28][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-12 15:41:28][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-12 15:41:28][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-12 15:41:28][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1, "userId": 1 } }
+[2022-03-12 15:41:28][[32minfo[39m] mongo
+{
+  "collectionName": "users",
+  "method": "createIndex",
+  "query": { "username": "text", "name": "text", "email": "text", "phone": "text" }
+}
+[2022-03-12 15:41:28][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "code": 1 } }
+[2022-03-12 15:41:28][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": 1 } }
+[2022-03-12 15:41:29][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "name": "text", "code": "text" } }
+[2022-03-12 15:41:29][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": "text" } }
+[2022-03-12 15:42:04][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:42:05][[32minfo[39m] Mongoose connected
+[2022-03-12 15:42:05][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-12 15:42:05][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-12 15:42:05][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-12 15:42:05][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-12 15:42:05][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-12 15:42:05][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "code": 1 } }
+[2022-03-12 15:42:05][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1, "userId": 1 } }
+[2022-03-12 15:42:05][[32minfo[39m] mongo
+{
+  "collectionName": "users",
+  "method": "createIndex",
+  "query": { "username": "text", "name": "text", "email": "text", "phone": "text" }
+}
+[2022-03-12 15:42:05][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": 1 } }
+[2022-03-12 15:42:05][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "name": "text", "code": "text" } }
+[2022-03-12 15:42:05][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": "text" } }
+[2022-03-12 15:42:15][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:42:15][[32minfo[39m] Mongoose connected
+[2022-03-12 15:42:15][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-12 15:42:16][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-12 15:42:16][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-12 15:42:16][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-12 15:42:16][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-12 15:42:16][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "code": 1 } }
+[2022-03-12 15:42:16][[32minfo[39m] mongo
+{
+  "collectionName": "users",
+  "method": "createIndex",
+  "query": { "username": "text", "name": "text", "email": "text", "phone": "text" }
+}
+[2022-03-12 15:42:16][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": 1 } }
+[2022-03-12 15:42:16][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1, "userId": 1 } }
+[2022-03-12 15:42:16][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "name": "text", "code": "text" } }
+[2022-03-12 15:42:16][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": "text" } }
+[2022-03-12 15:43:35][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "find", "query": {} }
+[2022-03-12 15:43:35][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "count", "query": {} }
+[2022-03-12 15:43:35][[32minfo[39m] mongo
+{
+  "collectionName": "productlikes",
+  "method": "aggregate",
+  "query": [
+    {
+      "$match": {
+        "productId": {
+          "$in": [
+            "622327b363f8710db675cda8",
+            "622327cb63f8710db675cdaa",
+            "62232dedd5354d4a8b462b5d",
+            "62232e3bd5354d4a8b462b63"
+          ]
+        },
+        "userId": {
+          "$in": [
+            "6219f12f14b815e492bb5473",
+            "6219f12f14b815e492bb5473",
+            "6219f12f14b815e492bb5473",
+            "6219f12f14b815e492bb5473"
+          ]
+        }
+      }
+    },
+    { "$group": { "_id": { "productId": "$productId", "userId": "$userId" } } }
+  ]
+}
+[2022-03-12 15:43:35][[32minfo[39m] GRAPHQL query{getAllProduct(q:{page:1 limit:10}){pagination{total}data{id name isLike}}} - 200 - 113.752 ms
+
+[2022-03-12 15:43:41][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "find", "query": {} }
+[2022-03-12 15:43:41][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "count", "query": {} }
+[2022-03-12 15:43:41][[32minfo[39m] GRAPHQL query{getAllProduct(q:{page:1 limit:10}){pagination{total}data{id name isLike}}} - 200 - 50.319 ms
+
+[2022-03-12 15:43:47][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "find", "query": {} }
+[2022-03-12 15:43:47][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "count", "query": {} }
+[2022-03-12 15:43:47][[32minfo[39m] mongo
+{
+  "collectionName": "productlikes",
+  "method": "aggregate",
+  "query": [
+    {
+      "$match": {
+        "productId": {
+          "$in": [
+            "622327b363f8710db675cda8",
+            "622327cb63f8710db675cdaa",
+            "62232dedd5354d4a8b462b5d",
+            "62232e3bd5354d4a8b462b63"
+          ]
+        },
+        "userId": {
+          "$in": [
+            "6219f12f14b815e492bb5473",
+            "6219f12f14b815e492bb5473",
+            "6219f12f14b815e492bb5473",
+            "6219f12f14b815e492bb5473"
+          ]
+        }
+      }
+    },
+    { "$group": { "_id": { "productId": "$productId", "userId": "$userId" } } }
+  ]
+}
+[2022-03-12 15:43:47][[32minfo[39m] GRAPHQL query{getAllProduct(q:{page:1 limit:10}){pagination{total}data{id name isLike}}} - 200 - 90.217 ms
+
+[2022-03-12 15:44:50][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:44:51][[32minfo[39m] Mongoose connected
+[2022-03-12 15:44:51][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-12 15:44:51][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-12 15:44:51][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-12 15:44:51][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-12 15:44:51][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-12 15:44:51][[32minfo[39m] mongo
+{
+  "collectionName": "users",
+  "method": "createIndex",
+  "query": { "username": "text", "name": "text", "email": "text", "phone": "text" }
+}
+[2022-03-12 15:44:51][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "code": 1 } }
+[2022-03-12 15:44:51][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": 1 } }
+[2022-03-12 15:44:51][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1, "userId": 1 } }
+[2022-03-12 15:44:51][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "name": "text", "code": "text" } }
+[2022-03-12 15:44:51][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": "text" } }
+[2022-03-12 15:47:39][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:47:40][[32minfo[39m] Mongoose connected
+[2022-03-12 15:47:40][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-12 15:47:40][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-12 15:47:40][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-12 15:47:40][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-12 15:47:40][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-12 15:47:41][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": 1 } }
+[2022-03-12 15:47:41][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "code": 1 } }
+[2022-03-12 15:47:41][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1, "userId": 1 } }
+[2022-03-12 15:47:41][[32minfo[39m] mongo
+{
+  "collectionName": "users",
+  "method": "createIndex",
+  "query": { "username": "text", "name": "text", "email": "text", "phone": "text" }
+}
+[2022-03-12 15:47:41][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": "text" } }
+[2022-03-12 15:47:41][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "name": "text", "code": "text" } }
+[2022-03-12 15:48:37][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:48:40][[32minfo[39m] Mongoose connected
+[2022-03-12 15:48:41][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-12 15:48:41][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-12 15:48:41][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-12 15:48:41][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-12 15:48:41][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-12 15:48:41][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": 1 } }
+[2022-03-12 15:48:41][[32minfo[39m] mongo
+{
+  "collectionName": "users",
+  "method": "createIndex",
+  "query": { "username": "text", "name": "text", "email": "text", "phone": "text" }
+}
+[2022-03-12 15:48:41][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1, "userId": 1 } }
+[2022-03-12 15:48:41][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "code": 1 } }
+[2022-03-12 15:48:41][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": "text" } }
+[2022-03-12 15:48:41][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "name": "text", "code": "text" } }
+[2022-03-12 15:49:45][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:49:46][[32minfo[39m] Mongoose connected
+[2022-03-12 15:49:46][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-12 15:49:46][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-12 15:49:47][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-12 15:49:47][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-12 15:49:47][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-12 15:49:47][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": 1 } }
+[2022-03-12 15:49:47][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1, "userId": 1 } }
+[2022-03-12 15:49:47][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "code": 1 } }
+[2022-03-12 15:49:47][[32minfo[39m] mongo
+{
+  "collectionName": "users",
+  "method": "createIndex",
+  "query": { "username": "text", "name": "text", "email": "text", "phone": "text" }
+}
+[2022-03-12 15:49:47][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": "text" } }
+[2022-03-12 15:49:47][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "name": "text", "code": "text" } }
+[2022-03-12 15:50:15][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:50:16][[32minfo[39m] Mongoose connected
+[2022-03-12 15:50:16][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "username": 1 } }
+[2022-03-12 15:50:16][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "priority": 1 } }
+[2022-03-12 15:50:17][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "categoryId": 1 } }
+[2022-03-12 15:50:17][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1 } }
+[2022-03-12 15:50:17][[32minfo[39m] mongo
+{ "collectionName": "users", "method": "createIndex", "query": { "email": 1 } }
+[2022-03-12 15:50:17][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": 1 } }
+[2022-03-12 15:50:17][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "code": 1 } }
+[2022-03-12 15:50:17][[32minfo[39m] mongo
+{ "collectionName": "productlikes", "method": "createIndex", "query": { "productId": 1, "userId": 1 } }
+[2022-03-12 15:50:17][[32minfo[39m] mongo
+{
+  "collectionName": "users",
+  "method": "createIndex",
+  "query": { "username": "text", "name": "text", "email": "text", "phone": "text" }
+}
+[2022-03-12 15:50:17][[32minfo[39m] mongo
+{ "collectionName": "categories", "method": "createIndex", "query": { "name": "text" } }
+[2022-03-12 15:50:17][[32minfo[39m] mongo
+{ "collectionName": "products", "method": "createIndex", "query": { "name": "text", "code": "text" } }
+[2022-03-12 15:50:47][[32minfo[39m] API router started at /api
+[2022-03-12 15:50:55][[32minfo[39m] API router started at /api
+[2022-03-12 15:50:57][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:50:58][[32minfo[39m] Mongoose connected
+[2022-03-12 15:53:02][[32minfo[39m] API router started at /api
+[2022-03-12 15:53:04][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:53:05][[32minfo[39m] Mongoose connected
+[2022-03-12 15:53:37][[32minfo[39m] API router started at /api
+[2022-03-12 15:53:39][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:53:40][[32minfo[39m] Mongoose connected
+[2022-03-12 15:54:07][[32minfo[39m] API router started at /api
+[2022-03-12 15:54:10][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:54:11][[32minfo[39m] Mongoose connected
+[2022-03-12 15:54:49][[32minfo[39m] API router started at /api
+[2022-03-12 15:54:52][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:54:53][[32minfo[39m] Mongoose connected
+[2022-03-12 15:55:20][[32minfo[39m] API router started at /api
+[2022-03-12 15:55:23][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:55:24][[32minfo[39m] Mongoose connected
+[2022-03-12 15:55:34][[32minfo[39m] API router started at /api
+[2022-03-12 15:55:36][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:55:37][[32minfo[39m] Mongoose connected
+[2022-03-12 15:55:44][[32minfo[39m] API router started at /api
+[2022-03-12 15:55:47][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:55:47][[32minfo[39m] Mongoose connected
+[2022-03-12 15:56:24][[32minfo[39m] API router started at /api
+[2022-03-12 15:56:27][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:56:27][[32minfo[39m] Mongoose connected
+[2022-03-12 15:56:58][[32minfo[39m] API router started at /api
+[2022-03-12 15:57:01][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:57:01][[32minfo[39m] Mongoose connected
+[2022-03-12 15:57:22][[32minfo[39m] API router started at /api
+[2022-03-12 15:57:24][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:57:25][[32minfo[39m] Mongoose connected
+[2022-03-12 15:57:44][[32minfo[39m] API router started at /api
+[2022-03-12 15:57:46][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:57:47][[32minfo[39m] Mongoose connected
+[2022-03-12 15:57:59][[32minfo[39m] API router started at /api
+[2022-03-12 15:58:01][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 15:58:02][[32minfo[39m] Mongoose connected
+[2022-03-12 16:02:07][[32minfo[39m] API router started at /api
+[2022-03-12 16:02:08][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 16:02:09][[32minfo[39m] Mongoose connected
+[2022-03-12 16:02:38][[32minfo[39m] API router started at /api
+[2022-03-12 16:02:38][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 16:02:39][[32minfo[39m] Mongoose connected
+[2022-03-12 16:02:40][[32minfo[39m] GRAPHQL query{getAllProduct(q:{page:1 limit:10}){pagination{total}data{id name isLike}}} - 200 - 1251.158 ms
+
+[2022-03-12 16:03:32][[32minfo[39m] API router started at /api
+[2022-03-12 16:03:32][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 16:03:33][[32minfo[39m] Mongoose connected
+[2022-03-12 16:03:48][[32minfo[39m] API router started at /api
+[2022-03-12 16:03:49][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 16:03:49][[32minfo[39m] Mongoose connected
+[2022-03-12 16:07:16][[32minfo[39m] API router started at /api
+[2022-03-12 16:07:17][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 16:07:17][[32minfo[39m] Mongoose connected
+[2022-03-12 16:08:20][[32minfo[39m] API router started at /api
+[2022-03-12 16:08:21][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 16:08:22][[32minfo[39m] Mongoose connected
+[2022-03-12 16:08:45][[32minfo[39m] API router started at /api
+[2022-03-12 16:08:45][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 16:08:46][[32minfo[39m] Mongoose connected
+[2022-03-12 16:09:17][[32minfo[39m] API router started at /api
+[2022-03-12 16:09:18][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 16:09:18][[32minfo[39m] Mongoose connected
+[2022-03-12 16:09:42][[32minfo[39m] API router started at /api
+[2022-03-12 16:09:43][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 16:09:43][[32minfo[39m] Mongoose connected
+[2022-03-12 16:11:45][[32minfo[39m] API router started at /api
+[2022-03-12 16:11:46][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 16:11:46][[32minfo[39m] Mongoose connected
+[2022-03-12 16:16:28][[32minfo[39m] API router started at /api
+[2022-03-12 16:16:28][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 16:16:29][[32minfo[39m] Mongoose connected
+[2022-03-12 16:16:49][[32minfo[39m] API router started at /api
+[2022-03-12 16:16:50][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 16:16:50][[32minfo[39m] Mongoose connected
+[2022-03-12 16:24:33][[32minfo[39m] API router started at /api
+[2022-03-12 16:24:34][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 16:24:35][[32minfo[39m] Mongoose connected
+[2022-03-12 16:25:35][[32minfo[39m] API router started at /api
+[2022-03-12 16:25:36][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 16:25:36][[32minfo[39m] Mongoose connected
+[2022-03-12 16:26:00][[32minfo[39m] API router started at /api
+[2022-03-12 16:26:01][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 16:26:02][[32minfo[39m] Mongoose connected
+[2022-03-12 16:26:17][[32minfo[39m] API router started at /api
+[2022-03-12 16:26:18][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 16:26:18][[32minfo[39m] Mongoose connected
+[2022-03-12 16:26:44][[32minfo[39m] API router started at /api
+[2022-03-12 16:26:44][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 16:26:45][[32minfo[39m] Mongoose connected
+[2022-03-12 16:27:16][[32minfo[39m] API router started at /api
+[2022-03-12 16:27:16][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 16:27:17][[32minfo[39m] Mongoose connected
+[2022-03-12 16:28:34][[32minfo[39m] API router started at /api
+[2022-03-12 16:28:35][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 16:28:35][[32minfo[39m] Mongoose connected
+[2022-03-12 16:29:24][[32minfo[39m] API router started at /api
+[2022-03-12 16:29:25][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 16:29:25][[32minfo[39m] Mongoose connected
+[2022-03-12 16:30:46][[32minfo[39m] API router started at /api
+[2022-03-12 16:30:47][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 16:30:56][[32minfo[39m] API router started at /api
+[2022-03-12 16:30:57][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 16:30:58][[32minfo[39m] Mongoose connected
+[2022-03-12 16:31:17][[32minfo[39m] API router started at /api
+[2022-03-12 16:31:18][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 16:31:27][[32minfo[39m] API router started at /api
+[2022-03-12 16:31:28][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 16:31:28][[32minfo[39m] Mongoose connected
+[2022-03-12 16:31:49][[32minfo[39m] API router started at /api
+[2022-03-12 16:31:50][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 16:31:51][[32minfo[39m] Mongoose connected
+[2022-03-12 16:32:23][[32minfo[39m] API router started at /api
+[2022-03-12 16:32:24][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 16:32:25][[32minfo[39m] Mongoose connected
+[2022-03-12 16:32:33][[32minfo[39m] GRAPHQL query{getAllProduct(q:{page:1 limit:10}){pagination{total}data{id name isLike}}} - 200 - 65.712 ms
+
+[2022-03-12 16:32:40][[32minfo[39m] GRAPHQL query{getAllProduct(q:{page:1 limit:10}){pagination{total}data{id name}}} - 200 - 54.464 ms
+
+[2022-03-12 16:32:54][[32minfo[39m] GRAPHQL query{getAllProduct(q:{page:1 limit:10}){pagination{total}data{id name}}} - 200 - 41.851 ms
+
+[2022-03-12 16:32:57][[32minfo[39m] GRAPHQL query{getAllProduct(q:{}){pagination{total}data{id name}}} - 200 - 44.750 ms
+
+[2022-03-12 16:33:48][[32minfo[39m] GRAPHQL mutation($accessToken:String!){loginUserByFirebase(accessToken:$accessToken){user{id email role}token}} - 200 - 445.740 ms
+
+[2022-03-12 16:34:04][[32minfo[39m] API router started at /api
+[2022-03-12 16:34:04][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 16:34:05][[32minfo[39m] Mongoose connected
+[2022-03-12 16:34:06][[32minfo[39m] GRAPHQL query{getAllProduct(q:{}){pagination{total}data{id name}}} - 200 - 507.299 ms
+
+[2022-03-12 16:34:20][[32minfo[39m] API router started at /api
+[2022-03-12 16:34:20][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 16:34:21][[32minfo[39m] Mongoose connected
+[2022-03-12 16:35:28][[32minfo[39m] API router started at /api
+[2022-03-12 16:35:28][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 16:35:29][[32minfo[39m] Mongoose connected
+[2022-03-12 16:36:04][[32minfo[39m] API router started at /api
+[2022-03-12 16:36:05][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 16:36:08][[32minfo[39m] Mongoose connected
+[2022-03-12 16:36:21][[32minfo[39m] API router started at /api
+[2022-03-12 16:36:21][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 16:36:22][[32minfo[39m] Mongoose connected
+[2022-03-12 16:36:38][[32minfo[39m] API router started at /api
+[2022-03-12 16:36:39][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 16:36:39][[32minfo[39m] Mongoose connected
+[2022-03-12 16:36:59][[32minfo[39m] API router started at /api
+[2022-03-12 16:37:00][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 16:37:01][[32minfo[39m] Mongoose connected
+[2022-03-12 16:37:09][[32minfo[39m] Đã xoá file 
+[2022-03-12 16:38:50][[32minfo[39m] API router started at /api
+[2022-03-12 16:38:59][[32minfo[39m] API router started at /api
+[2022-03-12 16:39:00][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-12 16:39:01][[32minfo[39m] Mongoose connected
+[2022-03-12 16:39:02][[32minfo[39m] Đã xoá file 
+[2022-03-12 16:39:43][[32minfo[39m] Đã xoá file 
+[2022-03-12 16:40:32][[32minfo[39m] Đã xoá file 

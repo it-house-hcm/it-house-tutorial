@@ -1,5 +1,6 @@
 import _ from "lodash";
 import { Context } from "../../helpers/graphql/context";
+import { GraphqlResolver } from "../../helpers/graphql/resolver";
 import { CategoryLoader, CategoryModel } from "./category/category.model";
 import { ProductModel } from "./product.model";
 import { productService } from "./product.service";
@@ -43,10 +44,6 @@ export default {
     },
   },
   Product: {
-    category: async (root: any, args: any, context: any) => {
-      const { categoryId } = root;
-      if (!categoryId) return null;
-      return await CategoryLoader.load(categoryId.toString());
-    },
+    category: GraphqlResolver.load(CategoryLoader, "categoryId"),
   },
 };

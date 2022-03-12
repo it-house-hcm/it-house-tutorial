@@ -1,5 +1,6 @@
 import { Document, Schema } from "mongoose";
 import { BaseDocument } from "../../base/baseModel";
+import { getModelDataLoader } from "../../helpers/dataloader";
 import { Mongo } from "../../helpers/mongo";
 
 export enum UserRole {
@@ -47,3 +48,5 @@ userSchema.index(
 );
 
 export const UserModel = Mongo.model<User>("User", userSchema);
+
+export const UserLoader = getModelDataLoader(UserModel);
