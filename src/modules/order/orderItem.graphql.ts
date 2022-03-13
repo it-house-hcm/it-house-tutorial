@@ -3,6 +3,10 @@ import { gql } from "apollo-server-express";
 import { Schema } from "mongoose";
 import { GraphqlResolver } from "../../helpers/graphql/resolver";
 import { ProductLoader } from "../product/product.model";
+import {
+  OrderItemAttribute,
+  OrderItemAttributeSchema,
+} from "./orderItemAttribute.graphql";
 
 export type OrderItem = {
   id?: string;
@@ -13,7 +17,7 @@ export type OrderItem = {
   productSellPrice?: number; // Giá bán sản phẩm
   qty?: number; // Số lượng
   amount?: number; // Thành tiền
-  attrs?: any[]; // Thuộc tính
+  attrs?: OrderItemAttribute[]; // Thuộc tính
   attrAmount?: number; // Thành tiền thuộc tính
 };
 
@@ -25,7 +29,7 @@ export const OrderItemSchema = new Schema({
   productSellPrice: { type: Number, default: 0 },
   qty: { type: Number, default: 1, min: 1 },
   amount: { type: Number, default: 0 },
-  attrs: { type: [Schema.Types.Mixed], default: [] },
+  attrs: { type: [OrderItemAttributeSchema], default: [] },
   attrAmount: { type: Number, default: 0 },
 });
 
@@ -48,7 +52,7 @@ export default {
       "Thành tiền"
       amount: Float
       "Thuộc tính"
-      attrs: [Mixed]
+      attrs: [OrderItemAttribute]
       "Thành tiền thuộc tính"
       attrAmount: Float
 
@@ -61,7 +65,7 @@ export default {
       "Số lượng"
       qty: Int
       "Thuộc tính"
-      attrs: [Mixed]
+      attrs: [OrderItemAttributeInput]
     }
   `,
   resolvers: {
