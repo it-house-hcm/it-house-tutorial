@@ -63,11 +63,11 @@ export default gql`
     }
 
     input CreateOrderInput {
-        
+        _empty: String
     }
 
     input UpdateOrderInput {
-        
+        _empty: String
     }
 
 `;

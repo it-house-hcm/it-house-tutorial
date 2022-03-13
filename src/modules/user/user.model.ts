@@ -18,6 +18,7 @@ export type User = BaseDocument & {
   role?: UserRole; // Quyền
   signInProvider?: string; // Nhà cung cấp đăng nhập
   scopes?: string[]; // Các quyền
+  deviceTokens?: string[]; // Token để gửi thông báo
 };
 
 const userSchema = new Schema(
@@ -31,6 +32,7 @@ const userSchema = new Schema(
     role: { type: String, required: true, enum: Object.values(UserRole) },
     signInProvider: { type: String },
     scopes: { type: [String] },
+    deviceTokens: { type: [String], default: [] },
   },
   { timestamps: true }
 );

@@ -1,0 +1,180 @@
+[2022-03-13 16:34:01][[32minfo[39m] API router started at /api
+[2022-03-13 16:34:02][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-13 16:34:02][[32minfo[39m] Mongoose connected
+[2022-03-13 16:34:33][[32minfo[39m] API router started at /api
+[2022-03-13 16:34:33][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-13 16:34:34][[32minfo[39m] Mongoose connected
+[2022-03-13 16:34:39][[32minfo[39m] GRAPHQL - - 200 - 1.175 ms
+
+[2022-03-13 16:35:06][[32minfo[39m] API router started at /api
+[2022-03-13 16:35:06][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-13 16:35:07][[32minfo[39m] Mongoose connected
+[2022-03-13 16:37:23][[32minfo[39m] API router started at /api
+[2022-03-13 16:37:24][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-13 16:37:24][[32minfo[39m] Mongoose connected
+[2022-03-13 16:39:13][[32minfo[39m] GRAPHQL mutation($data:SendNotifyInput!){sendNotify(data:$data)} - 400 - 23.348 ms
+
+[2022-03-13 16:39:22][[32minfo[39m] GRAPHQL mutation($data:SendNotifyInput!){sendNotify(data:$data)} - 200 - 128.480 ms
+
+[2022-03-13 16:42:38][[32minfo[39m] API router started at /api
+[2022-03-13 16:42:38][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-13 16:42:39][[32minfo[39m] Mongoose connected
+[2022-03-13 16:43:06][[32minfo[39m] GRAPHQL query{getAllUser{data{id name unreadNotify}}} - 200 - 104.138 ms
+
+[2022-03-13 16:44:17][[32minfo[39m] API router started at /api
+[2022-03-13 16:44:18][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-13 16:44:19][[32minfo[39m] Mongoose connected
+[2022-03-13 16:46:06][[32minfo[39m] API router started at /api
+[2022-03-13 16:46:07][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-13 16:46:08][[32minfo[39m] Mongoose connected
+[2022-03-13 16:46:20][[32minfo[39m] API router started at /api
+[2022-03-13 16:46:21][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-13 16:46:21][[32minfo[39m] Mongoose connected
+[2022-03-13 16:46:23][[32minfo[39m] GRAPHQL query{getAllUser{data{id name unreadNotify}}} - 200 - 525.318 ms
+
+[2022-03-13 16:57:12][[32minfo[39m] API router started at /api
+[2022-03-13 16:57:13][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-13 16:57:14][[32minfo[39m] Mongoose connected
+[2022-03-13 17:00:44][[32minfo[39m] API router started at /api
+[2022-03-13 17:00:44][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-13 17:00:45][[32minfo[39m] Mongoose connected
+[2022-03-13 17:00:54][[32minfo[39m] GRAPHQL mutation($accessToken:String!){loginUserByFirebase(accessToken:$accessToken){user{id email role}token}} - 200 - 498.105 ms
+
+[2022-03-13 17:02:01][[32minfo[39m] GRAPHQL mutation($accessToken:String!){loginUserByFirebase(accessToken:$accessToken){user{id username email role}token}} - 200 - 91.055 ms
+
+[2022-03-13 17:02:48][[32minfo[39m] GRAPHQL mutation{regisDevice(token:"c76wsRBVhd9SEJ5tE9weFX:APA91bGtRcaFY9EA2s3_RNbMqATk8tXHZtQO3x0zxcRVUJbXVENZ2kOMY8zKvqrjUltbzvlQG9j2NBNPpkakdRi3-1x9qutJBOCoUsP24XpNK2L5qlFs4emsOGXwQLRiQq71C_pNxdez")} - 400 - 19.574 ms
+
+[2022-03-13 17:02:55][[32minfo[39m] GRAPHQL mutation{regisDeviceToken(token:"c76wsRBVhd9SEJ5tE9weFX:APA91bGtRcaFY9EA2s3_RNbMqATk8tXHZtQO3x0zxcRVUJbXVENZ2kOMY8zKvqrjUltbzvlQG9j2NBNPpkakdRi3-1x9qutJBOCoUsP24XpNK2L5qlFs4emsOGXwQLRiQq71C_pNxdez")} - 200 - 11.334 ms
+
+[2022-03-13 17:03:03][[32minfo[39m] GRAPHQL mutation{regisDeviceToken(token:"c76wsRBVhd9SEJ5tE9weFX:APA91bGtRcaFY9EA2s3_RNbMqATk8tXHZtQO3x0zxcRVUJbXVENZ2kOMY8zKvqrjUltbzvlQG9j2NBNPpkakdRi3-1x9qutJBOCoUsP24XpNK2L5qlFs4emsOGXwQLRiQq71C_pNxdez")} - 200 - 97.270 ms
+
+[2022-03-13 17:03:46][[32minfo[39m] API router started at /api
+[2022-03-13 17:03:47][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-13 17:03:48][[32minfo[39m] Mongoose connected
+[2022-03-13 17:04:00][[32minfo[39m] API router started at /api
+[2022-03-13 17:04:00][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-13 17:04:01][[32minfo[39m] Mongoose connected
+[2022-03-13 17:04:02][[32minfo[39m] GRAPHQL mutation{regisDeviceToken(token:"c76wsRBVhd9SEJ5tE9weFX:APA91bGtRcaFY9EA2s3_RNbMqATk8tXHZtQO3x0zxcRVUJbXVENZ2kOMY8zKvqrjUltbzvlQG9j2NBNPpkakdRi3-1x9qutJBOCoUsP24XpNK2L5qlFs4emsOGXwQLRiQq71C_pNxdez")} - 200 - 608.758 ms
+
+[2022-03-13 17:05:25][[32minfo[39m] API router started at /api
+[2022-03-13 17:05:26][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-13 17:05:26][[32minfo[39m] Mongoose connected
+[2022-03-13 17:05:27][[32minfo[39m] GRAPHQL mutation{regisDeviceToken(token:"c76wsRBVhd9SEJ5tE9weFX:APA91bGtRcaFY9EA2s3_RNbMqATk8tXHZtQO3x0zxcRVUJbXVENZ2kOMY8zKvqrjUltbzvlQG9j2NBNPpkakdRi3-1x9qutJBOCoUsP24XpNK2L5qlFs4emsOGXwQLRiQq71C_pNxdez")} - 200 - 890.117 ms
+
+[2022-03-13 17:05:47][[32minfo[39m] API router started at /api
+[2022-03-13 17:05:49][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-13 17:05:49][[32minfo[39m] Mongoose connected
+[2022-03-13 17:05:51][[32minfo[39m] GRAPHQL mutation{regisDeviceToken(token:"c76wsRBVhd9SEJ5tE9weFX:APA91bGtRcaFY9EA2s3_RNbMqATk8tXHZtQO3x0zxcRVUJbXVENZ2kOMY8zKvqrjUltbzvlQG9j2NBNPpkakdRi3-1x9qutJBOCoUsP24XpNK2L5qlFs4emsOGXwQLRiQq71C_pNxdez")} - 200 - 476.483 ms
+
+[2022-03-13 17:06:24][[32minfo[39m] API router started at /api
+[2022-03-13 17:06:25][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-13 17:06:26][[32minfo[39m] Mongoose connected
+[2022-03-13 17:06:27][[32minfo[39m] GRAPHQL mutation{regisDeviceToken(token:"c76wsRBVhd9SEJ5tE9weFX:APA91bGtRcaFY9EA2s3_RNbMqATk8tXHZtQO3x0zxcRVUJbXVENZ2kOMY8zKvqrjUltbzvlQG9j2NBNPpkakdRi3-1x9qutJBOCoUsP24XpNK2L5qlFs4emsOGXwQLRiQq71C_pNxdez")} - 200 - 634.775 ms
+
+[2022-03-13 17:06:55][[32minfo[39m] API router started at /api
+[2022-03-13 17:06:56][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-13 17:06:57][[32minfo[39m] Mongoose connected
+[2022-03-13 17:06:57][[32minfo[39m] GRAPHQL mutation{regisDeviceToken(token:"c76wsRBVhd9SEJ5tE9weFX:APA91bGtRcaFY9EA2s3_RNbMqATk8tXHZtQO3x0zxcRVUJbXVENZ2kOMY8zKvqrjUltbzvlQG9j2NBNPpkakdRi3-1x9qutJBOCoUsP24XpNK2L5qlFs4emsOGXwQLRiQq71C_pNxdez")} - 200 - 1171.222 ms
+
+[2022-03-13 17:11:25][[32minfo[39m] API router started at /api
+[2022-03-13 17:11:26][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-13 17:11:26][[32minfo[39m] Mongoose connected
+[2022-03-13 17:12:25][[32minfo[39m] API router started at /api
+[2022-03-13 17:12:26][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-13 17:12:27][[32minfo[39m] Mongoose connected
+[2022-03-13 17:12:33][[32minfo[39m] GRAPHQL mutation($data:SendNotifyInput!){sendNotify(data:$data)} - 200 - 134.379 ms
+
+[2022-03-13 17:12:37][[32minfo[39m] GRAPHQL mutation($data:SendNotifyInput!){sendNotify(data:$data)} - 200 - 45.572 ms
+
+[2022-03-13 17:12:57][[32minfo[39m] GRAPHQL mutation($data:SendNotifyInput!){sendNotify(data:$data)} - 200 - 117.543 ms
+
+[2022-03-13 17:14:22][[32minfo[39m] API router started at /api
+[2022-03-13 17:14:23][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-13 17:14:24][[32minfo[39m] Mongoose connected
+[2022-03-13 17:14:25][[32minfo[39m] GRAPHQL mutation($data:SendNotifyInput!){sendNotify(data:$data)} - 200 - 156.771 ms
+
+[2022-03-13 17:14:45][[32minfo[39m] GRAPHQL mutation($data:SendNotifyInput!){sendNotify(data:$data)} - 200 - 113.867 ms
+
+[2022-03-13 17:15:17][[32minfo[39m] GRAPHQL mutation($data:SendNotifyInput!){sendNotify(data:$data)} - 200 - 114.217 ms
+
+[2022-03-13 17:15:23][[32minfo[39m] GRAPHQL mutation($data:SendNotifyInput!){sendNotify(data:$data)} - 200 - 51.310 ms
+
+[2022-03-13 17:16:00][[32minfo[39m] GRAPHQL mutation($data:SendNotifyInput!){sendNotify(data:$data)} - 200 - 86.253 ms
+
+[2022-03-13 17:16:05][[32minfo[39m] GRAPHQL mutation($data:SendNotifyInput!){sendNotify(data:$data)} - 200 - 63.530 ms
+
+[2022-03-13 17:18:19][[32minfo[39m] API router started at /api
+[2022-03-13 17:18:20][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-13 17:18:21][[32minfo[39m] Mongoose connected
+[2022-03-13 17:18:24][[32minfo[39m] GRAPHQL mutation($data:SendNotifyInput!){sendNotify(data:$data)} - 200 - 164.665 ms
+
+[2022-03-13 17:34:27][[32minfo[39m] API router started at /api
+[2022-03-13 17:34:27][[32minfo[39m] Mongoose connected
+[2022-03-13 17:34:34][[32minfo[39m] GRAPHQL - - 200 - 1.636 ms
+
+[2022-03-13 17:35:57][[32minfo[39m] API router started at /api
+[2022-03-13 17:35:57][[31merror[39m] Redis connection error: connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -61, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[2022-03-13 17:35:58][[32minfo[39m] Mongoose connected

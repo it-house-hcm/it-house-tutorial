@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  app:
+    build: .
+    env_file: .env
+    ports:
+      - 5001:4000
+  redis:
+    image: redis:latest
+  prod:
+    image: diepmyduong/it-house-shop
+    env_file: .env
+    ports:
+      - 5002:4000
