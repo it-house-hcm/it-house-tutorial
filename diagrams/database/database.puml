@@ -1,0 +1,215 @@
+@startuml
+
+package Product {
+    map Product {
+        name => String
+        description => String
+        images => List<String>
+        basePrice => Double
+        sellPrice => Double
+        actived => Boolean
+        categoryId => String
+        attrs => List<Attribute>
+        view => Int
+    }
+    map Category {
+        name => String
+        description => String
+        actived => Boolean
+        priority => Int
+        productIds => List<String>
+    }
+    map Attribute {
+        name => String
+        required => Boolean
+        min => Int
+        max => Int
+        options => List<AttributeOption>
+    }
+
+    map AttributeOption {
+        name => String
+        price => Double
+        isDefault => Boolean
+    }
+
+    map ProductLike {
+        productId => String
+        userId => String
+    }
+
+    map ProductComment {
+        productId => String
+        userId => String
+        content => String
+        createdAt => DateTime
+        replyToCommentId => String
+    }
+
+    Product --{ ProductComment
+    ProductComment --{ ProductComment
+}
+
+package User {
+    map User {
+        username => String
+        name => String
+        email => String
+        password => String
+        phone => String
+        place => Place
+        actived => Boolean
+        role => String
+    }
+
+    map Place {
+        address => String
+        latitude => Double
+        longitude => Double
+        province => String
+        district => String
+        ward => String
+    }
+
+    enum UserRole {
+        admin
+        customer
+    }
+}
+
+package Promotion {
+    map Promotion {
+        name => String
+        description => String
+        startDate => Date
+        endDate => Date
+        actived => Boolean
+    }
+
+    map DiscountBillPromotion {
+        discountUnit => String
+        discountValue => Double
+        maxDiscount => Double
+    }
+
+    map OfferItemPromotion {
+        offerItems => List<OfferItem>
+    }
+
+    map OfferItem {
+        productId => String
+        quantity => Int
+    }
+
+    map RewardLog {
+        userId => String
+        rewardPoint => Int
+        createdAt => Date
+        type => RewardLogType
+        subtype => RewardLogSubtype
+        orderId => String
+    }
+
+    enum RewardLogType {
+        retrive_from_order
+        use_for_order
+    }
+}
+
+package Order {
+    map Order {
+        code => String
+        buyerId => String
+        buyerName => String
+        buyerPhone => String
+        buyerPlace => Place
+        items => List<OrderItem>
+        subtotal => Double
+        discount => Double
+        shipfee => Double
+        amount => Double
+        status => OrderStatus
+        promotionName => String
+        promotionId => String
+        rewardPoint => Int
+        useRewardPoint => Boolean
+        rewardPointDiscount => Double
+    }
+
+    enum OrderStatus {
+        pending
+        processing
+        shipped
+        delivered
+        canceled
+    }
+
+    map OrderItem {
+        productId => String
+        productName => String
+        productPrice => Double
+        productSellPrice => Double
+        productImage => String
+        attrs => List<OrderItemAttribute>
+        attrAmount => Double
+        quantity => Int
+        amount => Double
+    }
+
+    map OrderItemAttribute {
+        attrId => String
+        attrName => String
+        attrPrice => Double
+        attrOptionName => String
+        attrOptionPrice => Double
+    }
+}
+
+package Notification {
+    map Notification {
+        userId => String
+        title => String
+        body => String
+        image => String
+        read => Boolean
+        createdAt => Date
+        action => Action
+    }
+    map Action {
+        type => ActionType
+        data => any
+    }
+    enum ActionType {
+        order
+        product
+        promotion
+        website
+    }
+}
+
+
+Product }--* Category
+Product --{ Attribute
+Product --{ ProductLike
+Attribute --{ AttributeOption
+User --* Place
+User --* UserRole
+User --{ ProductLike
+Order --* User
+Order --{ OrderItem
+OrderItem --{ OrderItemAttribute
+OrderItem }--* Product
+OrderItemAttribute --* Attribute
+Order }--* Promotion
+Order --* OrderStatus
+RewardLog --* RewardLogType
+Order *-- RewardLog
+Promotion <|-- DiscountBillPromotion
+Promotion <|-- OfferItemPromotion
+OfferItemPromotion --{ OfferItem
+Notification --* Action
+Notification }-- User
+Action --* ActionType
+
+
+@enduml

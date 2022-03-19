@@ -1,0 +1,43 @@
+@startuml
+
+actor "Khách hàng" as KhachHang
+
+package Product {
+    usecase "Xem danh sách sản phẩm" as XemDanhSachSanPham
+    usecase "Thêm giỏ hàng" as ThemGioHang
+}
+package Order {
+    usecase "Đặt đơn hàng" as DatDonHang
+    usecase "Đánh giá đơn hàng" as DanhGiaDonHang
+    usecase "Xem lịch sử đặt" as XemLichSuDat
+}
+package Promotion {
+    usecase "Thêm khyến mãi" as ThemKhuyenMai
+    usecase "Sử dụng điểm" as SuDungDiem
+}
+package User  {
+    usecase "Đăng nhập" as DangNhap
+    usecase "Reset Mật khẩu" as ResetMatKhau
+    usecase "Đăng ký" as DangKy
+}
+
+
+left to right direction
+KhachHang --> XemDanhSachSanPham
+KhachHang --> ThemGioHang
+KhachHang --> DatDonHang
+KhachHang --> DanhGiaDonHang
+KhachHang --> XemLichSuDat
+
+DatDonHang <-- ThemKhuyenMai : <<exclude>>
+DatDonHang <-- SuDungDiem: <<exclude>>
+
+DatDonHang --> DangNhap: <<include>>
+DanhGiaDonHang --> DangNhap: <<include>>
+XemLichSuDat --> DangNhap: <<include>>
+
+DangNhap <-- ResetMatKhau: <<exclude>>
+DangNhap <-- DangKy: <<exclude>>
+
+
+@enduml

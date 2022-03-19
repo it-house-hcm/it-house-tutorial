@@ -1,4 +1,4 @@
-import dotenv from "dotenv";
+const dotenv = require("dotenv");
 
 dotenv.config();
 
@@ -7,11 +7,10 @@ module.exports = {
   mongo: {
     uri: null,
   },
-  number: 123,
-  flag: true,
-  array: [1, 2, 3],
-  object: {
-    a: 1,
-    b: 2,
+  firebase: {
+    serviceAccount: null,
+  },
+  redis: {
+    url: "redis://localhost:6379",
   },
 };
