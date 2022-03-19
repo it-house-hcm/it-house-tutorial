@@ -19,6 +19,7 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
+    environment: production
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -27,10 +28,10 @@ jobs:
       
       # Login Docker User
       - name: docker login
-        env: 
-          DOCKER_USER: ${{ secrets.DOCKER_USER }}
+#         env: 
+#           DOCKER_USER: ${{ secrets.DOCKER_USER }}
         run: |
-          echo "Docker user is " + $DOCKER_USER
+          echo Docker user is $DOCKER_USER
 
       # Run docker build command
       - name: docker build
