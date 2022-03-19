@@ -28,8 +28,8 @@ jobs:
       
       # Login Docker User
       - name: docker login
-#         env: 
-#           DOCKER_USER: ${{ secrets.DOCKER_USER }}
+        env: 
+          DOCKER_USER: ${{ secrets.DOCKER_USER }}
         run: |
           echo Docker user is $DOCKER_USER
 
