@@ -57,13 +57,34 @@ export default gql`
         rewardPointDiscount: Float
         "Sản phẩm"
         items: [OrderItem]
+        "ID chi nhánh"
+        branchId: ID
 
         "Người mua"
         buyer: User
+        "Chi nhánh"
+        branch: Branch
     }
 
     input CreateOrderInput {
-        _empty: String
+        "ID người mua"
+        buyerId: ID!
+        "Tên người mua"
+        buyerName: String!
+        "Số điện thoại người mua"
+        buyerPhone: String!
+        "Địa chỉ người mua"
+        buyerAddress: String!
+        "Vị trí người mua"
+        buyerLocation: Mixed!
+        "Mã khuyến mãi"
+        promotionCode: String
+        "Sử dụng điểm thưởng"
+        useRewardPoint: Boolean
+        "Sản phẩm"
+        items: [OrderItemInput]
+        "ID chi nhánh"
+        branchId: ID!
     }
 
     input UpdateOrderInput {

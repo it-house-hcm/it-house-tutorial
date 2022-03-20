@@ -163,6 +163,16 @@ package Order {
         attrOptionName => String
         attrOptionPrice => Double
     }
+
+    map Branch {
+        name => String
+        phone => String
+        place => Place
+        active => Boolean
+    }
+
+    Order }--* Branch
+    Branch --* Place
 }
 
 package Notification {

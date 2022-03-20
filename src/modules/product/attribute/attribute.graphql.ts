@@ -11,7 +11,7 @@ export type Attribute = {
   required?: boolean; // Bắt buộc
   min?: number; // Số lượng option chọn tối thiểu
   max?: number; // Số lượng option chọn tối đa
-  options?: AttributeOption[]; // Option
+  options: AttributeOption[]; // Option
 };
 
 export const AttributeSchema = new Schema({

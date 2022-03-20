@@ -31,6 +31,7 @@ export type Order = BaseDocument & {
   useRewardPoint?: boolean; // Sử dụng điểm thưởng
   rewardPointDiscount?: number; // Giảm giá điểm thưởng
   items?: OrderItem[]; // Sản phẩm
+  branchId?: string; // ID chi nhánh
 };
 
 const orderSchema = new Schema(
@@ -57,6 +58,7 @@ const orderSchema = new Schema(
     useRewardPoint: { type: Boolean, default: false },
     rewardPointDiscount: { type: Number, default: 0 },
     items: { type: [OrderItemSchema], default: [] },
+    branchId: { type: Schema.Types.ObjectId, required: true },
   },
   { timestamps: true }
 );
